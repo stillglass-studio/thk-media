@@ -17,63 +17,11 @@
   "15:00",
   "21:00"
  ],
- "pending": [
-  {
-   "file": "ready/CC_HERO_christmasanimals_h1.png",
-   "book": "CC",
-   "board": "Gifts for Women Who Love Coloring",
-   "title": "Christmas Coloring Book Gift for Animal Lovers | Cathedral Creatures",
-   "alt": "Cathedral Creatures stained glass animal coloring book with a golden lion window on the cover, on a wooden table with ribbon, pine and colored pencils",
-   "text": "A Christmas gift for animal lovers who color. Cathedral Creatures holds 40 stained-glass animal designs: the Lion of Judah, the Pelican in Her Piety, foxes in the vineyard, bees and honeycomb, the peaceable kingdom. Each plate is named and paired with Scripture or medieval tradition. Single-sided 8.5 x 11 pages for colored pencils, markers and gel pens. Paperback on Amazon."
-  },
-  {
-   "file": "ready/SG_PEEK_wintercrosses_h1.png",
-   "book": "SG",
-   "board": "Stained Glass Coloring Pages for Adults",
-   "title": "Inside Sacred Glass: 40 Stained Glass Cross Coloring Pages",
-   "alt": "Four line-art pages from Sacred Glass: a cardinal in the snow, a hedgehog among holly, a chickadee in the pine and the empty cross at dawn",
-   "text": "See inside Sacred Glass: a cardinal in the snow, a hedgehog among the holly, a chickadee in the pine and the empty cross at dawn. 40 stained-glass crosses, Celtic, Coptic, Fleury and more, each paired with a King James verse and arranged through the seasons. Large single-sided pages made for adult coloring with pencils or gel pens. Paperback on Amazon."
-  },
-  {
-   "file": "ready/SG_HERO_womenoffaith_h1.png",
-   "book": "SG",
-   "board": "Christmas Gifts for Christian Women",
-   "title": "Christian Coloring Book Gift for Women | Sacred Glass",
-   "alt": "Sacred Glass coloring book with a jeweled stained glass cross, lilies and roses on the cover, on dark velvet with gold ribbon",
-   "text": "A thoughtful Christmas gift for a woman of faith. Sacred Glass gathers 40 stained-glass crosses to color, Celtic, Coptic, Jerusalem, Fleury and more, set among lilies, roses, songbirds and winter pine. Each section opens with Scripture (KJV) and a short reflection page. Single-sided 8.5 x 11 pages. Paperback on Amazon."
-  },
-  {
-   "file": "ready/CC_PEEK_animals_h1.png",
-   "book": "CC",
-   "board": "Stained Glass Coloring Pages for Adults",
-   "title": "Inside Cathedral Creatures: Stained Glass Animal Coloring Pages",
-   "alt": "Four line-art pages from Cathedral Creatures: turtledoves in a fig tree, a butterfly window, hares in the vine and a cow with a bear",
-   "text": "Peek inside Cathedral Creatures: turtledoves in the fig tree, the butterfly of new life, hares in a Celtic vine and the cow and bear of the peaceable kingdom. 40 stained-glass animal windows inspired by Scripture and the medieval bestiary, from open and restful to intricate. Single-sided pages for colored pencils and gel pens. Paperback on Amazon."
-  },
-  {
-   "file": "ready/CW_HERO_fortywindows_h1.png",
-   "book": "CW",
-   "board": "Christmas Gifts for Christian Women",
-   "title": "Stained Glass Coloring Book Gift | Church Windows",
-   "alt": "Church Windows coloring book with a stained glass sacred heart, roses and lilies on the cover, on cream linen with colored pencils",
-   "text": "Forty windows of light to color. Church Windows holds 40 original stained-glass church window designs, from simple and serene to beautifully intricate: sacred hearts, doves, lilies, anchors and trees of life, in five themed sections with Scripture and reflection. Large single-sided 8.5 x 11 pages. A gift for the women you love, or a quiet hour for yourself. Paperback on Amazon."
-  },
-  {
-   "file": "ready/ALL_SET_walnut_h1.png",
-   "book": "CC",
-   "board": "Stillglass Collection",
-   "title": "Stillglass Coloring Book Collection | 120 Stained-Glass Designs",
-   "alt": "Three Stillglass Studio coloring book covers arranged side by side on a festive walnut table.",
-   "text": "Explore three distinct stained-glass coloring books for adults: Cathedral Creatures, Church Windows and Sacred Glass. Each has 40 designs, for 120 across the collection. Choose from animals, church windows and crosses for your next coloring session. This pin links to Cathedral Creatures; the other two titles are in the Stillglass Collection on Amazon.",
-   "note": "Collection pin: link points to CC until a series/store page URL is provided"
-  }
- ],
- "first_slots": [
-  "2026-11-06 15:00",
-  "2026-11-06 21:00",
-  "2026-11-07 15:00",
-  "2026-11-07 21:00",
-  "2026-11-08 15:00",
-  "2026-11-08 21:00"
- ]
+ "pending": [],
+ "board_ids": {
+  "Gifts for Women Who Love Coloring": "594123444532833548",
+  "Stained Glass Coloring Pages for Adults": "594123444532833545",
+  "Christmas Gifts for Christian Women": "594123444532833547",
+  "Stillglass Collection": "594123444532833549"
+ }
 }
