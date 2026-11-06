@@ -2,6 +2,7 @@
 
 Usage:
   python3 -I compose.py <type> <book> <input_image|-> <headline> <out.png> [--kicker TEXT]
+  python3 -I compose.py VERSE <book> <input_image> "<KJV verse>" "<Reference>" <out.png>
 
 type   : SPLIT | GIFT | COZY | SET | PEEK
 book   : CC | CW | SG | ALL
@@ -146,8 +147,37 @@ def make(ptype, book, src, headline, out, kicker=None):
     return out
 
 
+def make_verse(book, src, verse, ref, out):
+    """Light 'verse' layout: no navy band; KJV verse in italic over the art, real cover badge."""
+    canvas = Image.new("RGB", (W, H), (255, 255, 255))
+    d = ImageDraw.Draw(canvas)
+    top = 250
+    f, lines = fit_text(d, "\u201c" + verse + "\u201d", "eb-garamond-latin-500-italic.ttf", W - 120, 2, 64, 40)
+    lh = f.size * 1.12
+    y = 46 + (150 - lh * len(lines)) / 2
+    for l in lines:
+        lw = d.textlength(l, font=f)
+        d.text(((W - lw) / 2, y), l, font=f, fill=NAVY)
+        y += lh
+    rf = FONT("cinzel-latin-600-normal.ttf", 24)
+    rw = d.textlength(ref, font=rf)
+    ry = y + 14
+    d.line(((W - rw) / 2 - 70, ry + 14, (W - rw) / 2 - 18, ry + 14), fill=GOLD, width=2)
+    d.line(((W + rw) / 2 + 18, ry + 14, (W + rw) / 2 + 70, ry + 14), fill=GOLD, width=2)
+    d.text(((W - rw) / 2, ry), ref, font=rf, fill=(176, 132, 30))
+    page = trim_white(Image.open(src).convert("RGB"))
+    s = min((W - 60) / page.width, (H - top - 30) / page.height)
+    page = page.resize((round(page.width * s), round(page.height * s)), Image.LANCZOS)
+    canvas.paste(page, ((W - page.width) // 2, top + (H - top - 30 - page.height) // 2 + 10))
+    badge(canvas, book, bw=190)
+    canvas.save(out, optimize=True)
+    return out
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
+    if a[0] == "VERSE":
+        print(make_verse(a[1], a[2], a[3], a[4], a[5])); sys.exit()
     kick = None
     if "--kicker" in a:
         i = a.index("--kicker"); kick = a[i + 1]; a = a[:i] + a[i + 2:]
