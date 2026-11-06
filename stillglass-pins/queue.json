@@ -3,7 +3,11 @@
   "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
   "CW": "https://www.amazon.com/dp/B0H632JLGW",
   "SG": "https://www.amazon.com/dp/B0H68DH1B9",
-  "OL": "https://www.amazon.com/dp/B0HK9QYCMD"
+  "OL": "https://www.amazon.com/dp/B0HK9QYCMD",
+  "ADV": "https://www.amazon.com/dp/B0HJDJS66V",
+  "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
+  "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
+  "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ"
  },
  "boards": {
   "SPLIT": "Stained Glass Coloring Pages for Adults",
@@ -19,7 +23,44 @@
   "15:00",
   "21:00"
  ],
- "pending": [],
+ "pending": [
+  {
+   "file": "ready/QG_01-a-slower-morning.png",
+   "book": "QG",
+   "board": null,
+   "title": "A Slower Morning With God | The Quiet Garden Devotional",
+   "alt": "The Quiet Garden paperback on a sunlit linen table beside a teacup and colored pencils. The headline reads “A slower kind of morning.”",
+   "text": "Set out your colored pencils, press play on the piano soundtrack, and open to the first garden window. The Quiet Garden pairs 21 days of KJV Scripture with coloring and prayer journaling. Save this for a morning when you want an unhurried place to begin.",
+   "hold": "rejected: cover does not match real cover"
+  },
+  {
+   "file": "ready/QG_08-a-garden-to-give.png",
+   "book": "QG",
+   "board": null,
+   "title": "A Personal Christian Gift for Someone Who Loves to Color",
+   "alt": "The Quiet Garden cover overlaps its floral dedication page. The headline reads “A garden with their name in it.”",
+   "text": "Open the dedication page to the words “This garden was planted for” and write the name of someone you love. The Quiet Garden gives them 21 days of Scripture, garden windows to color, and space to write back.",
+   "hold": "rejected: cover does not match real cover"
+  },
+  {
+   "file": "ready/F90_01-new-to-faith-start-with-ten-minutes.png",
+   "book": "F90",
+   "board": null,
+   "title": "New to Faith? Start With a 10-Minute Devotional for Men",
+   "alt": "An oxblood paperback of The First 90 Days with Jesus rests on a wooden table beneath the headline “New to faith? Start with ten minutes.”",
+   "text": "If you want to follow Jesus and wonder where to begin, Tom Fenwick starts with a father watching the road for his son. The First 90 Days with Jesus pairs a short Bible reading with a prayer, one practical action, and a question you can write about. Begin with Luke 15:11–24.",
+   "hold": "cover not verified against real cover"
+  },
+  {
+   "file": "ready/F90_10-a-gift-for-a-man-starting-over.png",
+   "book": "F90",
+   "board": null,
+   "title": "A Christian Book Gift for a Man Coming Back to Faith",
+   "alt": "The oxblood cover sits beside a detail of the book’s inscription page on green wrapping paper. The page includes spaces for the giver’s name and the reader’s start date.",
+   "text": "For the friend who’s said he’d like to start reading the Bible again. The First 90 Days with Jesus offers ten-minute readings and a practical next step each day. The inscription page has room for his name, yours, the date you gave it, and the day he chooses to begin.",
+   "hold": "cover not verified against real cover"
+  }
+ ],
  "board_ids": {
   "Gifts for Women Who Love Coloring": "594123444532833548",
   "Stained Glass Coloring Pages for Adults": "594123444532833545",
@@ -30,12 +71,16 @@
  },
  "rules": [
   "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
-  "At most one pin per book (per Amazon link) per day; max 3 pins per day in total (15:00, 18:00, 21:00 Paris)."
+  "At most one pin per book (per Amazon link) per day; max 5 pins per day in total, slots 13:00, 15:00, 18:00, 21:00, 23:30 Paris."
  ],
  "books": {
   "CC": "Cathedral Creatures",
   "CW": "Church Windows",
   "SG": "Sacred Glass",
-  "OL": "The Longest Night at Olivet Chapel (Alma Simon)"
+  "OL": "The Longest Night at Olivet Chapel (Alma Simon)",
+  "ADV": "Advent & Christmas Bible Activity Book",
+  "BAB": "Bible Activity Book",
+  "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
+  "F90": "The First 90 Days with Jesus (Tom Fenwick)"
  }
 }
