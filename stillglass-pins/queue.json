@@ -23,26 +23,7 @@
   "15:00",
   "21:00"
  ],
- "pending": [
-  {
-   "file": "ready/F90_01-new-to-faith-start-with-ten-minutes.png",
-   "book": "F90",
-   "board": null,
-   "title": "New to Faith? Start With a 10-Minute Devotional for Men",
-   "alt": "An oxblood paperback of The First 90 Days with Jesus rests on a wooden table beneath the headline “New to faith? Start with ten minutes.”",
-   "text": "If you want to follow Jesus and wonder where to begin, Tom Fenwick starts with a father watching the road for his son. The First 90 Days with Jesus pairs a short Bible reading with a prayer, one practical action, and a question you can write about. Begin with Luke 15:11–24.",
-   "hold": "cover not verified against real cover"
-  },
-  {
-   "file": "ready/F90_10-a-gift-for-a-man-starting-over.png",
-   "book": "F90",
-   "board": null,
-   "title": "A Christian Book Gift for a Man Coming Back to Faith",
-   "alt": "The oxblood cover sits beside a detail of the book’s inscription page on green wrapping paper. The page includes spaces for the giver’s name and the reader’s start date.",
-   "text": "For the friend who’s said he’d like to start reading the Bible again. The First 90 Days with Jesus offers ten-minute readings and a practical next step each day. The inscription page has room for his name, yours, the date you gave it, and the day he chooses to begin.",
-   "hold": "cover not verified against real cover"
-  }
- ],
+ "pending": [],
  "board_ids": {
   "Gifts for Women Who Love Coloring": "594123444532833548",
   "Stained Glass Coloring Pages for Adults": "594123444532833545",
