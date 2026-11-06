@@ -25,7 +25,8 @@
   "Stained Glass Coloring Pages for Adults": "594123444532833545",
   "Christmas Gifts for Christian Women": "594123444532833547",
   "Stillglass Collection": "594123444532833549",
-  "Christian Coloring Books for Adults": "594123444532833546"
+  "Christian Coloring Books for Adults": "594123444532833546",
+  "Christmas Romance Books": "594123444532833957"
  },
  "rules": [
   "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
