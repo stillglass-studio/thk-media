@@ -2,7 +2,8 @@
  "links": {
   "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
   "CW": "https://www.amazon.com/dp/B0H632JLGW",
-  "SG": "https://www.amazon.com/dp/B0H68DH1B9"
+  "SG": "https://www.amazon.com/dp/B0H68DH1B9",
+  "OL": "https://www.amazon.com/dp/B0HK9QYCMD"
  },
  "boards": {
   "SPLIT": "Stained Glass Coloring Pages for Adults",
@@ -11,7 +12,8 @@
   "HERO": "Gifts for Women Who Love Coloring",
   "COZY": "Gifts for Women Who Love Coloring",
   "SET": "Christian Coloring Books for Adults",
-  "BRAND": "Stillglass Collection"
+  "BRAND": "Stillglass Collection",
+  "ROMANCE": "Christmas Romance Books"
  },
  "slots_paris": [
   "15:00",
@@ -26,6 +28,13 @@
   "Christian Coloring Books for Adults": "594123444532833546"
  },
  "rules": [
-  "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected."
- ]
+  "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
+  "At most one pin per book (per Amazon link) per day; max 3 pins per day in total (15:00, 18:00, 21:00 Paris)."
+ ],
+ "books": {
+  "CC": "Cathedral Creatures",
+  "CW": "Church Windows",
+  "SG": "Sacred Glass",
+  "OL": "The Longest Night at Olivet Chapel (Alma Simon)"
+ }
 }
