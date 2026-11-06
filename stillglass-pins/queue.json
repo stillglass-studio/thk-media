@@ -30,7 +30,9 @@
   "Christmas Gifts for Christian Women": "594123444532833547",
   "Stillglass Collection": "594123444532833549",
   "Christian Coloring Books for Adults": "594123444532833546",
-  "Christmas Romance Books": "594123444532833957"
+  "Christmas Romance Books": "594123444532833957",
+  "Bible Puzzles & Activities": "594123444532833980",
+  "Christian Devotionals": "594123444532815157"
  },
  "rules": [
   "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
