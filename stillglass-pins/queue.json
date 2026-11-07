@@ -1,51 +1,53 @@
 {
- "links": {
-  "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
-  "CW": "https://www.amazon.com/dp/B0H632JLGW",
-  "SG": "https://www.amazon.com/dp/B0H68DH1B9",
-  "OL": "https://www.amazon.com/dp/B0HK9QYCMD",
-  "ADV": "https://www.amazon.com/dp/B0HJDJS66V",
-  "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
-  "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
-  "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ"
- },
- "boards": {
-  "SPLIT": "Stained Glass Coloring Pages for Adults",
-  "PEEK": "Stained Glass Coloring Pages for Adults",
-  "GIFT": "Christmas Gifts for Christian Women",
-  "HERO": "Gifts for Women Who Love Coloring",
-  "COZY": "Gifts for Women Who Love Coloring",
-  "SET": "Christian Coloring Books for Adults",
-  "BRAND": "Stillglass Collection",
-  "ROMANCE": "Christmas Romance Books"
- },
- "slots_paris": [
-  "15:00",
-  "21:00"
- ],
- "pending": [],
- "board_ids": {
-  "Gifts for Women Who Love Coloring": "594123444532833548",
-  "Stained Glass Coloring Pages for Adults": "594123444532833545",
-  "Christmas Gifts for Christian Women": "594123444532833547",
-  "Stillglass Collection": "594123444532833549",
-  "Christian Coloring Books for Adults": "594123444532833546",
-  "Christmas Romance Books": "594123444532833957",
-  "Bible Puzzles & Activities": "594123444532833980",
-  "Christian Devotionals": "594123444532815157"
- },
- "rules": [
-  "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
-  "At most one pin per book (per Amazon link) per day; max 5 pins per day in total, slots 13:00, 15:00, 18:00, 21:00, 23:30 Paris."
- ],
- "books": {
-  "CC": "Cathedral Creatures",
-  "CW": "Church Windows",
-  "SG": "Sacred Glass",
-  "OL": "The Longest Night at Olivet Chapel (Alma Simon)",
-  "ADV": "Advent & Christmas Bible Activity Book",
-  "BAB": "Bible Activity Book",
-  "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
-  "F90": "The First 90 Days with Jesus (Tom Fenwick)"
- }
+  "links": {
+    "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
+    "CW": "https://www.amazon.com/dp/B0H632JLGW",
+    "SG": "https://www.amazon.com/dp/B0H68DH1B9",
+    "OL": "https://www.amazon.com/dp/B0HK9QYCMD",
+    "ADV": "https://www.amazon.com/dp/B0HJDJS66V",
+    "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
+    "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
+    "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ",
+    "TYPY": "https://www.amazon.com/dp/B0H6JMBVPQ"
+  },
+  "boards": {
+    "SPLIT": "Stained Glass Coloring Pages for Adults",
+    "PEEK": "Stained Glass Coloring Pages for Adults",
+    "GIFT": "Christmas Gifts for Christian Women",
+    "HERO": "Gifts for Women Who Love Coloring",
+    "COZY": "Gifts for Women Who Love Coloring",
+    "SET": "Christian Coloring Books for Adults",
+    "BRAND": "Stillglass Collection",
+    "ROMANCE": "Christmas Romance Books"
+  },
+  "slots_paris": [
+    "15:00",
+    "21:00"
+  ],
+  "pending": [],
+  "board_ids": {
+    "Gifts for Women Who Love Coloring": "594123444532833548",
+    "Stained Glass Coloring Pages for Adults": "594123444532833545",
+    "Christmas Gifts for Christian Women": "594123444532833547",
+    "Stillglass Collection": "594123444532833549",
+    "Christian Coloring Books for Adults": "594123444532833546",
+    "Christmas Romance Books": "594123444532833957",
+    "Bible Puzzles & Activities": "594123444532833980",
+    "Christian Devotionals": "594123444532815157"
+  },
+  "rules": [
+    "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
+    "At most one pin per book (per Amazon link) per day; max 5 pins per day in total, slots 13:00, 15:00, 18:00, 21:00, 23:30 Paris."
+  ],
+  "books": {
+    "CC": "Cathedral Creatures",
+    "CW": "Church Windows",
+    "SG": "Sacred Glass",
+    "OL": "The Longest Night at Olivet Chapel (Alma Simon)",
+    "ADV": "Advent & Christmas Bible Activity Book",
+    "BAB": "Bible Activity Book",
+    "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
+    "F90": "The First 90 Days with Jesus (Tom Fenwick)",
+    "TYPY": "The Years I Prayed for You: A Mother's Prayer Keepsake for Her Child"
+  }
 }
