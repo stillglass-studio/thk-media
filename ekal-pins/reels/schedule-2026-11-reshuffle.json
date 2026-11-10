@@ -1,0 +1,416 @@
+{
+ "brand": "Eka L",
+ "metricool_blog_id": 8002367,
+ "timezone": "Europe/Paris",
+ "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files.",
+ "amazon": "https://www.amazon.com/dp/B0HL33T9HJ",
+ "posts": [
+  {
+   "at": "2026-11-14T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w01_sweep_tiger-crown.mp4",
+   "title": "Watch her come alive | Grayscale to colour"
+  },
+  {
+   "at": "2026-11-15T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-01_look-closer_wolf.mp4",
+   "title": "Someone is watching | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-15T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w10_slider_rhino.mp4",
+   "title": "As printed vs. your colour | Coloring book"
+  },
+  {
+   "at": "2026-11-16T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-14_lockscreen_pov.mp4",
+   "title": "POV: your lock screen in 2027",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-16T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w04_bloom_toucan.mp4",
+   "title": "One spark of colour | Grayscale coloring"
+  },
+  {
+   "at": "2026-11-17T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-08_pick-one_kindred.mp4",
+   "title": "Fox, wolf or swan? Pick one",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-17T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w13_montage_companions.mp4",
+   "title": "Every page has a wild companion"
+  },
+  {
+   "at": "2026-11-18T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-16_journal_127-pngs.mp4",
+   "title": "127 PNGs. Zero beige. | Junk journal kit",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-18T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w07_layers_elephant.mp4",
+   "title": "What colouring this page feels like"
+  },
+  {
+   "at": "2026-11-19T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-03_look-closer_gilded.mp4",
+   "title": "Red lips. Gold rain. | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-19T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w16_moods_chameleon.mp4",
+   "title": "Same page. Three moods."
+  },
+  {
+   "at": "2026-11-20T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-18_bundle_nine-prints.mp4",
+   "title": "Nine prints. Endless personality.",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-20T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w02_sweep_wolf.mp4",
+   "title": "Grayscale is not an absence of colour"
+  },
+  {
+   "at": "2026-11-21T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-06_look-closer_horned-tea.mp4",
+   "title": "Tea time, but make it magic | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-21T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w11_slider_tiger.mp4",
+   "title": "Before or after? | Grayscale coloring"
+  },
+  {
+   "at": "2026-11-22T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-12_calendar_12-in-12.mp4",
+   "title": "12 months, 12 artworks | 2027 Art Calendar",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-22T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w05_bloom_serpent.mp4",
+   "title": "She was waiting for your colours"
+  },
+  {
+   "at": "2026-11-23T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-10_pick-your-set.mp4",
+   "title": "Pick your gallery wall: 1, 2 or 3",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-23T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w01_sweep_tiger-crown.mp4",
+   "title": "Watch her come alive | Grayscale to colour"
+  },
+  {
+   "at": "2026-11-23T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w14_montage_pick-a-page.mp4",
+   "title": "Pick a page. Make it yours."
+  },
+  {
+   "at": "2026-11-24T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-15_lockscreen_which.mp4",
+   "title": "Which lock screen are you?",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-24T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-12_calendar_12-in-12.mp4",
+   "title": "12 months, 12 artworks | 2027 Art Calendar"
+  },
+  {
+   "at": "2026-11-24T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w08_layers_parrot.mp4",
+   "title": "The shadows are already there"
+  },
+  {
+   "at": "2026-11-25T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-02_look-closer_swan.mp4",
+   "title": "This swan has company | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-25T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w10_slider_rhino.mp4",
+   "title": "As printed vs. your colour | Coloring book"
+  },
+  {
+   "at": "2026-11-25T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w17_moods_giraffe.mp4",
+   "title": "There are no correct colours"
+  },
+  {
+   "at": "2026-11-26T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-17_journal_tiny-pieces.mp4",
+   "title": "Tiny pieces, big imagination | Junk journal kit",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-26T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-13_calendar_month-vibe.mp4",
+   "title": "Which month is your vibe? | 2027 Art Calendar"
+  },
+  {
+   "at": "2026-11-26T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w03_sweep_dragon.mp4",
+   "title": "From gray to wild | Dragon coloring page"
+  },
+  {
+   "at": "2026-11-27T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-05_look-closer_checkmate.mp4",
+   "title": "Who's winning? | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-27T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w04_bloom_toucan.mp4",
+   "title": "One spark of colour | Grayscale coloring"
+  },
+  {
+   "at": "2026-11-27T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w12_slider_flamingo.mp4",
+   "title": "Gray first. Then magic."
+  },
+  {
+   "at": "2026-11-28T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-13_calendar_month-vibe.mp4",
+   "title": "Which month is your vibe? | 2027 Art Calendar",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-28T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-10_pick-your-set.mp4",
+   "title": "Pick your gallery wall: 1, 2 or 3"
+  },
+  {
+   "at": "2026-11-28T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w06_bloom_lion.mp4",
+   "title": "Every layer makes her glow"
+  },
+  {
+   "at": "2026-11-29T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-09_pick-one_reverie.mp4",
+   "title": "Which dream would you hang? 1, 2 or 3",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-29T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w13_montage_companions.mp4",
+   "title": "Every page has a wild companion"
+  },
+  {
+   "at": "2026-11-29T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w15_montage_cat-people.mp4",
+   "title": "Cat people, this book is for you"
+  },
+  {
+   "at": "2026-11-30T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-04_look-closer_songbird.mp4",
+   "title": "Follow the little bird | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-11-30T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-15_lockscreen_which.mp4",
+   "title": "Which lock screen are you?"
+  },
+  {
+   "at": "2026-11-30T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w09_layers_fox.mp4",
+   "title": "Slow evening. One page. Pure calm."
+  },
+  {
+   "at": "2026-12-01T10:07:00",
+   "network": "tiktok",
+   "reel": "2026-11-w2/b2-07_look-closer_small-world.mp4",
+   "title": "She is holding a whole world | Look closer",
+   "note": "moved"
+  },
+  {
+   "at": "2026-12-01T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w07_layers_elephant.mp4",
+   "title": "What colouring this page feels like"
+  },
+  {
+   "at": "2026-12-01T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w18_moods_rabbit.mp4",
+   "title": "Your palette, your rules"
+  },
+  {
+   "at": "2026-12-02T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-02_look-closer_swan.mp4",
+   "title": "This swan has company | Look closer"
+  },
+  {
+   "at": "2026-12-03T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w16_moods_chameleon.mp4",
+   "title": "Same page. Three moods."
+  },
+  {
+   "at": "2026-12-04T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-17_journal_tiny-pieces.mp4",
+   "title": "Tiny pieces, big imagination | Junk journal kit"
+  },
+  {
+   "at": "2026-12-05T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w02_sweep_wolf.mp4",
+   "title": "Grayscale is not an absence of colour"
+  },
+  {
+   "at": "2026-12-06T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-09_pick-one_reverie.mp4",
+   "title": "Which dream would you hang? 1, 2 or 3"
+  },
+  {
+   "at": "2026-12-07T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w11_slider_tiger.mp4",
+   "title": "Before or after? | Grayscale coloring"
+  },
+  {
+   "at": "2026-12-08T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-03_look-closer_gilded.mp4",
+   "title": "Red lips. Gold rain. | Look closer"
+  },
+  {
+   "at": "2026-12-09T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w05_bloom_serpent.mp4",
+   "title": "She was waiting for your colours"
+  },
+  {
+   "at": "2026-12-10T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-06_look-closer_horned-tea.mp4",
+   "title": "Tea time, but make it magic | Look closer"
+  },
+  {
+   "at": "2026-12-11T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w14_montage_pick-a-page.mp4",
+   "title": "Pick a page. Make it yours."
+  },
+  {
+   "at": "2026-12-12T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-04_look-closer_songbird.mp4",
+   "title": "Follow the little bird | Look closer"
+  },
+  {
+   "at": "2026-12-13T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w08_layers_parrot.mp4",
+   "title": "The shadows are already there"
+  },
+  {
+   "at": "2026-12-14T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-05_look-closer_checkmate.mp4",
+   "title": "Who's winning? | Look closer"
+  },
+  {
+   "at": "2026-12-15T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w17_moods_giraffe.mp4",
+   "title": "There are no correct colours"
+  },
+  {
+   "at": "2026-12-16T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "2026-11-w2/b2-07_look-closer_small-world.mp4",
+   "title": "She is holding a whole world | Look closer"
+  },
+  {
+   "at": "2026-12-17T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w03_sweep_dragon.mp4",
+   "title": "From gray to wild | Dragon coloring page"
+  },
+  {
+   "at": "2026-12-18T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w12_slider_flamingo.mp4",
+   "title": "Gray first. Then magic."
+  },
+  {
+   "at": "2026-12-19T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w06_bloom_lion.mp4",
+   "title": "Every layer makes her glow"
+  },
+  {
+   "at": "2026-12-20T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w15_montage_cat-people.mp4",
+   "title": "Cat people, this book is for you"
+  },
+  {
+   "at": "2026-12-21T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w09_layers_fox.mp4",
+   "title": "Slow evening. One page. Pure calm."
+  },
+  {
+   "at": "2026-12-22T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w18_moods_rabbit.mp4",
+   "title": "Your palette, your rules"
+  }
+ ]
+}
