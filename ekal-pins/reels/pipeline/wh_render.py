@@ -182,6 +182,89 @@ def reel_moods(n, beats, text, moods=('Warm', 'Cool', 'Pastel')):
         return img
     return frame, dur
 
+
+def pencil_sprite(color, length=520, width=50):
+    L, Wd = length, width
+    im = Image.new('RGBA', (L + 20, Wd + 20), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    oy = 10; cone = 70
+    body = tuple(int(v) for v in color)
+    d.rectangle((10 + cone, oy, 10 + L - 30, oy + Wd), fill=body + (255,))
+    d.rectangle((10 + cone, oy + Wd * 0.38, 10 + L - 30, oy + Wd * 0.62), fill=tuple(min(255, int(v * 1.18 + 20)) for v in body) + (255,))
+    d.rectangle((10 + L - 30, oy, 10 + L, oy + Wd), fill=(70, 62, 58, 255))
+    d.polygon([(10 + cone, oy), (10 + cone, oy + Wd), (10 + 18, oy + Wd / 2 + 6), (10 + 18, oy + Wd / 2 - 6)], fill=(232, 196, 150, 255))
+    d.polygon([(10 + 22, oy + Wd / 2 - 6), (10 + 22, oy + Wd / 2 + 6), (10, oy + Wd / 2)], fill=body + (255,))
+    return im
+
+def reel_pencil(n, beats, text, origin=(0.5, 0.4), seed=1):
+    key, g, c = plate(n)
+    b = beats; t0 = b[1]; t1 = t0 + 7.0
+    end_t = min(x for x in b if x >= t1 + 1.6); dur = end_t + 2.8
+    rng = np.random.default_rng(seed)
+    lum = c.mean(axis=2) / 255.0
+    grain = noise(seed + 101, ((180, 1.0), (360, 0.6)))
+    ox, oy = origin[0] * SW, origin[1] * SH
+    strokes = []
+    for pas, ang0 in ((0, 0.70), (1, -0.62)):
+        sp = 36
+        for yy in range(0, SH, sp):
+            for xx in range(0, SW, sp):
+                x = xx + rng.uniform(-10, 10); y = yy + rng.uniform(-10, 10)
+                xi, yi = int(min(SW - 1, max(0, x))), int(min(SH - 1, max(0, y)))
+                if lum[max(0, yi - 18):yi + 18, max(0, xi - 18):xi + 18].min() > 0.93: continue
+                a = ang0 + rng.uniform(-0.18, 0.18); ln = rng.uniform(70, 115)
+                dist = np.hypot(x - ox, y - oy) / np.hypot(SW, SH)
+                order = dist + 0.18 * rng.random() + (0.42 if pas else 0.0)
+                strokes.append((order, pas, x, y, a, ln))
+    strokes.sort()
+    omax = strokes[-1][0]
+    times = [t0 + (t1 - t0 - 0.6) * (o / omax) ** 1.15 for o, *_ in strokes]
+    gray_img = Image.fromarray(g.astype(np.uint8)); color_img = Image.fromarray(c.astype(np.uint8))
+    st = {'t': -1, 'k': 0, 'm': [Image.new('L', (SW, SH), 0), Image.new('L', (SW, SH), 0)], 'tip': None}
+    def draw_upto(t):
+        if t < st['t']:
+            st.update(t=-1, k=0, m=[Image.new('L', (SW, SH), 0), Image.new('L', (SW, SH), 0)], tip=None)
+        ds = [ImageDraw.Draw(st['m'][0]), ImageDraw.Draw(st['m'][1])]
+        while st['k'] < len(strokes) and times[st['k']] <= t:
+            _, pas, x, y, a, ln = strokes[st['k']]
+            dx, dy = np.cos(a), np.sin(a); nx, ny = -dy, dx
+            for j in range(-2, 3):
+                ox2, oy2 = x + nx * j * 7, y + ny * j * 7
+                ds[pas].line((ox2 - dx * ln / 2, oy2 - dy * ln / 2, ox2 + dx * ln / 2, oy2 + dy * ln / 2), fill=255, width=5)
+            st['k'] += 1
+        st['t'] = t
+    def frame(t):
+        if t >= end_t: return end_card(t - end_t)
+        zoom = 1.0 + 0.06 * min(t / end_t, 1)
+        tip = None
+        if t < t0: src = gray_img
+        elif t >= t1: src = color_img
+        else:
+            draw_upto(t)
+            m0 = np.asarray(st['m'][0], np.float32) / 255; m1 = np.asarray(st['m'][1], np.float32) / 255
+            m = np.clip(m0 * (grain > 0.5) * 0.7 + m1 * (0.6 + 0.4 * (grain <= 0.5)), 0, 1)
+            fin = max(0.0, (t - (t1 - 0.6)) / 0.6); m = m + (1 - m) * fin
+            src = composite(g, c, m)
+            if st['k'] > 0 and fin < 0.5:
+                _, pas, x, y, a, ln = strokes[st['k'] - 1]
+                wig = np.sin(t * 38) * ln * 0.4
+                tip = (x + np.cos(a) * wig, y + np.sin(a) * wig, c[int(min(SH - 1, max(0, y))), int(min(SW - 1, max(0, x)))])
+        img = frame_from(src, zoom)
+        if tip is not None:
+            s = max(W / SW, H / SH) * zoom; bw, bh = W / s, H / s
+            x0 = min(max(SW / 2 - bw / 2, 0), SW - bw); y0 = min(max(SH / 2 - bh / 2, 0), SH - bh)
+            px, py = (tip[0] - x0) * s, (tip[1] - y0) * s
+            if st['tip'] is not None and t > 0: px, py = st['tip'][0] * 0.55 + px * 0.45, st['tip'][1] * 0.55 + py * 0.45
+            st['tip'] = (px, py)
+            pen = pencil_sprite(tip[2]).rotate(-128, expand=True, resample=Image.BICUBIC)
+            pen = shadowed(pen, blur=8, off=(10, 14), opacity=90)
+            ang = np.deg2rad(-128); half = (520 + 20) / 2
+            tipx = pen.width / 2 - np.cos(ang) * half * -1; tipy = pen.height / 2 + np.sin(ang) * half * -1
+            img.alpha_composite(pen, (int(px - tipx), int(py - tipy)))
+        if t < t1 + 1.0:
+            hook(img, text, alpha=1.0 if t < t1 + 0.6 else 1 - (t - t1 - 0.6) / 0.4)
+        return img
+    return frame, dur
+
 # ---------------------------------------------------------------- registry
 WREELS = {
  'w01_sweep_tiger-crown':     ('rv', 'Tea_by_the_Window', 148.3, dict(n=21, text='Watch her come alive.', mode='sweep', seed=3)),
@@ -210,10 +293,31 @@ def build(rid):
     if kind == 'rv': fr, dur = reel_reveal(beats=beats, **kw)
     elif kind == 'sl': fr, dur = reel_slider(beats=beats, **kw)
     elif kind == 'mt': fr, dur = reel_montage(beats=beats, **kw)
+    elif kind == 'pc': fr, dur = reel_pencil(beats=beats, **kw)
     else: fr, dur = reel_moods(beats=beats, **kw)
     return fr, dur, a, s
 
 R.build = build
+
+
+WREELS.update({
+ 'w19_sweep_familiar':        ('rv', 'Tea_by_the_Window', 191.8, dict(n=1, text='Meet her familiar.\nNow watch the colour.', mode='sweep', seed=31)),
+ 'w20_sweep_ride-the-wind':   ('rv', 'Threshold_of_New_Light', 20.8, dict(n=18, text='Ride the wind\nin full colour.', mode='sweep', seed=37)),
+ 'w21_sweep_old-creatures':   ('rv', 'River_of_Light', 108.3, dict(n=26, text='Old creatures,\nnew colours.', mode='sweep', seed=41)),
+ 'w22_bloom_second-sight':    ('rv', 'C___Reverie', 26.5, dict(n=31, text='Look into her eyes.\nNow watch.', mode='bloom', origin=(0.45, 0.45), seed=43)),
+ 'w23_bloom_impossible-cup':  ('rv', 'Golden_Medal', 36.1, dict(n=24, text='A cup full of colour…', mode='bloom', origin=(0.6, 0.42), seed=47)),
+ 'w24_bloom_white-rabbit':    ('rv', 'A___Wild_colour', 24.4, dict(n=7, text='Soft gray, then\nall the colour.', mode='bloom', origin=(0.5, 0.36), seed=53)),
+ 'w25_pencil_listening-forest': ('pc', 'Tea_by_the_Window', 44.4, dict(n=10, text='Quiet forest.\nSlow colour.', origin=(0.45, 0.35), seed=59)),
+ 'w26_pencil_morning-keeper': ('pc', 'Threshold_of_New_Light', 7.0, dict(n=4, text='Your morning ritual,\nin colour.', origin=(0.5, 0.3), seed=61)),
+ 'w27_pencil_horns-flowers':  ('pc', 'River_of_Light', 125.6, dict(n=6, text='Between horns\nand flowers.', origin=(0.4, 0.35), seed=67)),
+ 'w28_pencil_gentleness':     ('pc', 'A___Wild_colour', 88.4, dict(n=12, text='Gentle pages\nfor loud days.', origin=(0.5, 0.3), seed=71)),
+ 'w29_slider_earth':          ('sl', 'Clockwork', 31.5, dict(n=5, text='Gray or gold?')),
+ 'w30_slider_bull-moon':      ('sl', 'Canopy', 168.8, dict(n=11, text='As printed vs. your colour')),
+ 'w31_slider_messenger':      ('sl', 'Moon_on_the_Drum.wav', 143.7, dict(n=39, text='Swipe the city\ninto colour.')),
+ 'w32_moods_room-for-play':   ('md', 'D___New_year', 82.4, dict(n=38, text='Pick her mood.', moods=('Cool', 'Warm', 'Pastel'))),
+ 'w33_moods_sacred-absurdity': ('md', 'C___Reverie', 91.1, dict(n=30, text='Warm, cool\nor pastel?', moods=('Warm', 'Cool', 'Pastel'))),
+ 'w34_moods_faithful-wild':   ('md', 'D___New_year', 93.5, dict(n=20, text='Which mood\nis yours?', moods=('Pastel', 'Cool', 'Warm'))),
+})
 
 if __name__ == '__main__':
     rid = sys.argv[1]

@@ -2,7 +2,7 @@
  "brand": "Eka L",
  "metricool_blog_id": 8002367,
  "timezone": "Europe/Paris",
- "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files.",
+ "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7.",
  "amazon": "https://www.amazon.com/dp/B0HL33T9HJ",
  "posts": [
   {
@@ -293,10 +293,22 @@
    "title": "This swan has company | Look closer"
   },
   {
+   "at": "2026-12-02T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w25_pencil_listening-forest.mp4",
+   "title": "Watch colored pencil bring this page to life"
+  },
+  {
    "at": "2026-12-03T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w16_moods_chameleon.mp4",
    "title": "Same page. Three moods."
+  },
+  {
+   "at": "2026-12-03T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w29_slider_earth.mp4",
+   "title": "Gray or gold? | Before and after"
   },
   {
    "at": "2026-12-04T14:07:00",
@@ -305,10 +317,22 @@
    "title": "Tiny pieces, big imagination | Junk journal kit"
   },
   {
+   "at": "2026-12-04T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w19_sweep_familiar.mp4",
+   "title": "Meet her familiar | Grayscale to colour"
+  },
+  {
    "at": "2026-12-05T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w02_sweep_wolf.mp4",
    "title": "Grayscale is not an absence of colour"
+  },
+  {
+   "at": "2026-12-05T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w32_moods_room-for-play.mp4",
+   "title": "Pick her mood"
   },
   {
    "at": "2026-12-06T14:07:00",
@@ -317,10 +341,22 @@
    "title": "Which dream would you hang? 1, 2 or 3"
   },
   {
+   "at": "2026-12-06T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w22_bloom_second-sight.mp4",
+   "title": "Look into her eyes | Grayscale coloring"
+  },
+  {
    "at": "2026-12-07T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w11_slider_tiger.mp4",
    "title": "Before or after? | Grayscale coloring"
+  },
+  {
+   "at": "2026-12-07T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w26_pencil_morning-keeper.mp4",
+   "title": "Your morning ritual, in colour"
   },
   {
    "at": "2026-12-08T14:07:00",
@@ -329,10 +365,22 @@
    "title": "Red lips. Gold rain. | Look closer"
   },
   {
+   "at": "2026-12-08T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w30_slider_bull-moon.mp4",
+   "title": "As printed vs. your colour"
+  },
+  {
    "at": "2026-12-09T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w05_bloom_serpent.mp4",
    "title": "She was waiting for your colours"
+  },
+  {
+   "at": "2026-12-09T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w20_sweep_ride-the-wind.mp4",
+   "title": "Ride the wind in full colour"
   },
   {
    "at": "2026-12-10T14:07:00",
@@ -341,10 +389,22 @@
    "title": "Tea time, but make it magic | Look closer"
   },
   {
+   "at": "2026-12-10T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w33_moods_sacred-absurdity.mp4",
+   "title": "Warm, cool or pastel?"
+  },
+  {
    "at": "2026-12-11T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w14_montage_pick-a-page.mp4",
    "title": "Pick a page. Make it yours."
+  },
+  {
+   "at": "2026-12-11T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w23_bloom_impossible-cup.mp4",
+   "title": "A cup full of colour"
   },
   {
    "at": "2026-12-12T14:07:00",
@@ -353,10 +413,22 @@
    "title": "Follow the little bird | Look closer"
   },
   {
+   "at": "2026-12-12T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w27_pencil_horns-flowers.mp4",
+   "title": "Colored pencil, one layer at a time"
+  },
+  {
    "at": "2026-12-13T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w08_layers_parrot.mp4",
    "title": "The shadows are already there"
+  },
+  {
+   "at": "2026-12-13T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w31_slider_messenger.mp4",
+   "title": "Swipe the city into colour"
   },
   {
    "at": "2026-12-14T14:07:00",
@@ -365,10 +437,22 @@
    "title": "Who's winning? | Look closer"
   },
   {
+   "at": "2026-12-14T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w21_sweep_old-creatures.mp4",
+   "title": "Old creatures, new colours"
+  },
+  {
    "at": "2026-12-15T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w17_moods_giraffe.mp4",
    "title": "There are no correct colours"
+  },
+  {
+   "at": "2026-12-15T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w34_moods_faithful-wild.mp4",
+   "title": "Which mood is yours?"
   },
   {
    "at": "2026-12-16T14:07:00",
@@ -377,10 +461,22 @@
    "title": "She is holding a whole world | Look closer"
   },
   {
+   "at": "2026-12-16T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w24_bloom_white-rabbit.mp4",
+   "title": "Soft gray, then all the colour"
+  },
+  {
    "at": "2026-12-17T14:07:00",
    "network": "facebook+youtube",
    "reel": "wildhearted/w03_sweep_dragon.mp4",
    "title": "From gray to wild | Dragon coloring page"
+  },
+  {
+   "at": "2026-12-17T18:07:00",
+   "network": "tiktok",
+   "reel": "wildhearted/w28_pencil_gentleness.mp4",
+   "title": "Gentle pages for loud days"
   },
   {
    "at": "2026-12-18T14:07:00",
@@ -411,6 +507,102 @@
    "network": "facebook+youtube",
    "reel": "wildhearted/w18_moods_rabbit.mp4",
    "title": "Your palette, your rules"
+  },
+  {
+   "at": "2026-12-23T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w25_pencil_listening-forest.mp4",
+   "title": "Watch colored pencil bring this page to life"
+  },
+  {
+   "at": "2026-12-24T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w29_slider_earth.mp4",
+   "title": "Gray or gold? | Before and after"
+  },
+  {
+   "at": "2026-12-25T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w19_sweep_familiar.mp4",
+   "title": "Meet her familiar | Grayscale to colour"
+  },
+  {
+   "at": "2026-12-26T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w32_moods_room-for-play.mp4",
+   "title": "Pick her mood"
+  },
+  {
+   "at": "2026-12-27T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w22_bloom_second-sight.mp4",
+   "title": "Look into her eyes | Grayscale coloring"
+  },
+  {
+   "at": "2026-12-28T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w26_pencil_morning-keeper.mp4",
+   "title": "Your morning ritual, in colour"
+  },
+  {
+   "at": "2026-12-29T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w30_slider_bull-moon.mp4",
+   "title": "As printed vs. your colour"
+  },
+  {
+   "at": "2026-12-30T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w20_sweep_ride-the-wind.mp4",
+   "title": "Ride the wind in full colour"
+  },
+  {
+   "at": "2026-12-31T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w33_moods_sacred-absurdity.mp4",
+   "title": "Warm, cool or pastel?"
+  },
+  {
+   "at": "2027-01-01T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w23_bloom_impossible-cup.mp4",
+   "title": "A cup full of colour"
+  },
+  {
+   "at": "2027-01-02T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w27_pencil_horns-flowers.mp4",
+   "title": "Colored pencil, one layer at a time"
+  },
+  {
+   "at": "2027-01-03T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w31_slider_messenger.mp4",
+   "title": "Swipe the city into colour"
+  },
+  {
+   "at": "2027-01-04T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w21_sweep_old-creatures.mp4",
+   "title": "Old creatures, new colours"
+  },
+  {
+   "at": "2027-01-05T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w34_moods_faithful-wild.mp4",
+   "title": "Which mood is yours?"
+  },
+  {
+   "at": "2027-01-06T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w24_bloom_white-rabbit.mp4",
+   "title": "Soft gray, then all the colour"
+  },
+  {
+   "at": "2027-01-07T14:07:00",
+   "network": "facebook+youtube",
+   "reel": "wildhearted/w28_pencil_gentleness.mp4",
+   "title": "Gentle pages for loud days"
   }
  ]
 }

@@ -30,13 +30,13 @@ working session (the Payhip preview pack and the Suno tracks).
 ### Wildhearted (Amazon coloring book)
 
 Each plate's grayscale page (600 dpi master) is aligned pixel-for-pixel with its colorized version, then revealed with one of six effects:
-brush sweep, radial bloom from the face, layered scribble fill, before/after slider, three-page montage, and warm / cool / pastel mood grades.
+brush sweep, radial bloom from the face, layered scribble fill, colored-pencil hatching (with a pencil that picks up the colour it lays down), before/after slider, three-page montage, and warm / cool / pastel mood grades.
 End card uses the book cover on the book's charcoal-and-gold palette with "Available on Amazon" and "Search: Wildhearted Eka Lestienne".
 
 ## Cadence
 
-- TikTok: 2 a day. From Nov 14: 10:07 = Eka L. shop reel, 18:07 = Wildhearted reel (runs to Dec 1)
-- Facebook + YouTube: 1 a day. Nov 11-22 at 12:07 (FB) and 16:07 (YT); from Nov 23 one combined post at 14:07, alternating Wildhearted and shop reels (runs to Dec 22)
+- TikTok: 2 a day. From Nov 14: 10:07 = Eka L. shop reel, 18:07 = Wildhearted reel (runs to Dec 1); then 1 a day at 18:07 with Wildhearted batch 2 to Dec 17
+- Facebook + YouTube: 1 a day. Nov 11-22 at 12:07 (FB) and 16:07 (YT); from Nov 23 one combined post at 14:07, alternating Wildhearted and shop reels (runs to Dec 22), then Wildhearted batch 2 to Jan 7
 
 Times come from Metricool's best-time data for each network and should be revisited once the account has its own history.
 
