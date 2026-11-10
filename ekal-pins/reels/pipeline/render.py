@@ -86,7 +86,7 @@ def paste_center(dst, el, cx, cy):
 # ------------------------------------------------------------------ end cards
 def end_band(img, title, sub, alpha):
     """Soft brand band for reach reels (sits above the caption zone)."""
-    label(img, title, 1250, size=50, kind='serif', alpha=alpha, maxw=860, pad=(36, 20))
+    label(img, title, 1250, size=42, kind='serif', alpha=alpha, maxw=980, pad=(30, 18))
     label(img, sub, 1352, size=34, kind='sans_bold', fg=CREAM, bg=PLUM, alpha=alpha, maxw=860, pad=(28, 14), radius=22)
 
 def end_card(t_in, art, title, sub, price, art_box=(760, 700)):
@@ -171,11 +171,11 @@ def reel_pick_one(prints, triptych, hook, title, sub, beats):
 MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 ART = ['Lilac Swan', 'Sunlit Lullaby', 'Monarch Gaze', 'Pearl & Unicorn', 'Lotus Seraph', 'Songbird Mask', 'Wolf Sister', 'Gilded Rain', 'Small World Keeper', 'Horned Tea Ritual', 'Tea for the Dragon', 'Ginger & the Pup']
 
-def reel_birth_month(beats):
+def reel_birth_month(beats, hook="Find your birth month's artwork", per=2, names=True):
     b = beats
     cover_end = b[3]
-    starts = [b[3 + 2 * k] for k in range(12)]
-    end_t = b[3 + 24]
+    starts = [b[3 + per * k] for k in range(12)]
+    end_t = b[3 + 12 * per]
     dur = end_t + 2.8
     pages = [load('01_2027-Art-Calendar/Calendar_Wall-Letter_00-Cover.jpg')] + \
             [load(f'01_2027-Art-Calendar/Calendar_Wall-Letter_{m:02d}-{MONTHS[m-1]}.jpg') for m in range(1, 13)]
@@ -195,13 +195,13 @@ def reel_birth_month(beats):
     def frame(t):
         if t < cover_end:
             img = page_frame(0, 1.0)
-            label(img, "Find your birth month's artwork", 250, size=64)
+            label(img, hook, 250, size=64)
             return img
         if t < end_t:
             i = sum(1 for s in starts if t >= s)
             img = page_frame(i, t - starts[i - 1])
             label(img, MONTHS[i - 1], 220, size=84, kind='serif_bold', pad=(48, 18))
-            label(img, ART[i - 1], 330, size=40, kind='serif_it', fg=CREAM, bg=None, pad=(0, 0))
+            if names: label(img, ART[i - 1], 330, size=40, kind='serif_it', fg=CREAM, bg=None, pad=(0, 0))
             return img
         return end_card(t - end_t, pages[0], 'The 2027 Art Calendar', '12 artworks · wall + desk · 36 phone wallpapers', 'Printable · $14')
     return frame, dur
@@ -221,13 +221,15 @@ def phone(screen_img, clock=True, date='Monday, January 4'):
     ImageDraw.Draw(body).rounded_rectangle((body.width / 2 - 62, bez + 18, body.width / 2 + 62, bez + 52), radius=17, fill=(0, 0, 0, 255))
     return shadowed(body, blur=26, off=(0, 22), opacity=170)
 
-def reel_lockscreen(beats):
+def reel_lockscreen(beats, before='Your lock screen, before…', after='Free 2027 lock screens', order=(0, 1, 2, 3, 4, 5)):
     b = beats
     walls = ['02_Phone-Wallpapers/Wallpaper_dated_01-January.jpg', '02_Phone-Wallpapers/Wallpaper_art-only_GildedRain.jpg',
              '02_Phone-Wallpapers/Wallpaper_dated_04-April.jpg', '02_Phone-Wallpapers/Wallpaper_art-only_GingerAndThePup.jpg',
              '02_Phone-Wallpapers/Wallpaper_dated_07-July.jpg', '02_Phone-Wallpapers/Wallpaper_dated_10-October.jpg']
+    dates = ['Monday, January 4', 'Monday, March 1', 'Monday, April 5', 'Monday, December 6', 'Monday, July 5', 'Monday, October 4']
+    walls = [walls[k] for k in order]; dates = [dates[k] for k in order]
     srcs = [load(w) for w in walls]
-    DATES = {-1: 'Monday, January 4', 0: 'Monday, January 4', 1: 'Monday, March 1', 2: 'Monday, April 5', 3: 'Monday, December 6', 4: 'Monday, July 5', 5: 'Monday, October 4'}
+    DATES = {-1: 'Monday, January 4'}; DATES.update({k: d for k, d in enumerate(dates)})
     g = Image.linear_gradient('L').resize((645, 1398))
     plain = Image.merge('RGB', [g.point(lambda v: 70 + v // 6), g.point(lambda v: 78 + v // 6), g.point(lambda v: 92 + v // 5)])
     starts = [b[2]] + [b[2 + 3 * k] for k in range(1, 6)]
@@ -250,12 +252,12 @@ def reel_lockscreen(beats):
         s = 1.0 + (0.035 * (1 - ease_out(local / 0.25)) if i >= 0 else 0)
         p = ph if s == 1.0 else ph.resize((int(ph.width * s), int(ph.height * s)), Image.BILINEAR)
         paste_center(img, p, 540, 1030)
-        label(img, 'Your lock screen, before…' if i < 0 else 'Free 2027 lock screens', 250, size=66)
+        label(img, before if i < 0 else after, 250, size=66)
         return img
     return frame, dur
 
-def reel_journal(beats):
-    b = beats
+def reel_journal(beats, hook='Junk journalers bored of beige?', paper='EkaL_Paper_13_Soft.jpg', flip=False, step=1, sheets=None, sheet_hook='16 sheets of colour'):
+    b = beats[::step]
     E = f'{ROOT}/03_Junk-Journal-Kit/transparent-PNG-elements/'
     items = [  # file, cx, cy, width, rotation
         ('EkaL_Card-3x4_01.png', 300, 690, 360, -6), ('EkaL_FussyCut_01_fox_circle.png', 770, 610, 300, 8),
@@ -263,13 +265,16 @@ def reel_journal(beats):
         ('EkaL_FussyCut_17_golden-nap_heart.png', 560, 1220, 270, 6), ('EkaL_Tag_05_marmoset.png', 880, 1210, 170, 11),
         ('EkaL_Postmark_1.png', 700, 820, 300, 0), ('EkaL_FussyCut_13_unicorn_circle.png', 210, 1390, 210, -10),
         ('EkaL_Stamp_11_songbird-eyes.png', 820, 1420, 180, 7), ('EkaL_Ticket_04_DAYDREAM-THEATRE.png', 520, 1460, 420, 3)]
+    if flip:
+        items = [(fn, 1080 - cx, cy, w, -rot) for fn, cx, cy, w, rot in items[::-1]]
+        items = [(it[0].replace('Card-3x4_01', 'Card-3x4_02').replace('FussyCut_01_fox_circle', 'FussyCut_04_tiger_scallop').replace('Tag_05_marmoset', 'Tag_01_wolf').replace('FussyCut_13_unicorn_circle', 'FussyCut_07_pomegranate_circle'),) + it[1:] for it in items]
     els = []
     for fn, cx, cy, w, rot in items:
         e = load(E + fn, 'RGBA'); e = e.resize((w, int(e.height * w / e.width)), Image.LANCZOS).rotate(rot, expand=True, resample=Image.BICUBIC)
         els.append((shadowed(e, blur=10, off=(4, 10), opacity=120), cx, cy))
-    bg = cover_crop(load('03_Junk-Journal-Kit/background-paper-samples/EkaL_Paper_13_Soft.jpg'), 541, 700, 1.0).convert('RGBA')
+    bg = cover_crop(load('03_Junk-Journal-Kit/background-paper-samples/' + paper), 541, 700, 1.0).convert('RGBA')
     drops = [b[k] - 0.12 for k in range(10)]
-    sheets = ['03_Junk-Journal-Kit/Kit_Sheet_05-Fussy-cuts.jpg', '03_Junk-Journal-Kit/Kit_Sheet_07-Stamps.jpg',
+    sheets = sheets or ['03_Junk-Journal-Kit/Kit_Sheet_05-Fussy-cuts.jpg', '03_Junk-Journal-Kit/Kit_Sheet_07-Stamps.jpg',
               '03_Junk-Journal-Kit/Kit_Sheet_11-Tickets.jpg', '03_Junk-Journal-Kit/Kit_Sheet_09-Tags.jpg']
     sh_start = b[11]; sh_t = [b[11 + k] for k in range(4)]; end_t = b[15]; dur = end_t + 2.8
     base_cache = {}
@@ -291,7 +296,7 @@ def reel_journal(beats):
             rot = (-4, 3, -2, 4)[i] * (1 - ease_out(local / 0.25)) + (-1, 1, -1, 1)[i]
             el = el.rotate(rot, expand=True, resample=Image.BICUBIC)
             paste_center(img, shadowed(el, blur=18, opacity=150), 540 + 60 * (1 - ease_out(local / 0.2)), 1000)
-            label(img, '16 sheets of colour', 250, size=64)
+            label(img, sheet_hook, 250, size=64)
             return img
         n_done = sum(1 for d in drops if t >= d + 0.2)
         img = base_with(n_done).copy()
@@ -304,12 +309,127 @@ def reel_journal(beats):
                 if p < 1:
                     a = ee.split()[3].point(lambda v: int(v * min(1, p * 1.6))); ee.putalpha(a)
                 paste_center(img, ee, cx, cy - 70 * (1 - p))
-        label(img, 'Junk journalers bored of beige?', 250, size=64)
+        label(img, hook, 250, size=64)
+        return img
+    return frame, dur
+
+
+SETS = [('Kindred', '04_Gallery-Set_Kindred/Kindred_set-of-3_side-by-side.jpg'),
+        ('Masquerade', '05_Gallery-Set_Masquerade/Masquerade_set-of-3_side-by-side.jpg'),
+        ('Reverie', '06_Gallery-Set_Reverie/Reverie_set-of-3_side-by-side.jpg')]
+
+def reel_pick_set(beats, hook='Pick your gallery wall: 1, 2 or 3?'):
+    b = beats; per = 4
+    cuts = [b[0], b[per], b[2 * per], b[3 * per]]
+    dur = b[3 * per + 8] + 0.02
+    srcs = [load(f) for _, f in SETS]
+    bgs = [Image.blend(s.resize((48, 24)).filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR), Image.new('RGB', (W, H), PLUM), 0.5).convert('RGBA') for s in srcs]
+    def frame(t):
+        i = sum(1 for c in cuts[1:] if t >= c)
+        if i < 3:
+            loc = (t - cuts[i]) / (cuts[i + 1] - cuts[i])
+            img = bgs[i].copy()
+            w = int(1040 * (1.0 + 0.04 * loc)); el = srcs[i].resize((w, w // 2), Image.LANCZOS).convert('RGBA')
+            paste_center(img, shadowed(el, opacity=160), 540, 960)
+            pop = ease_out(loc * 4); r = int(80 * (0.6 + 0.4 * pop)); d = ImageDraw.Draw(img)
+            d.ellipse((540 - r, 1360 - r, 540 + r, 1360 + r), fill=CREAM)
+            d.text((540, 1362), str(i + 1), font=font('serif_bold', int(96 * (0.6 + 0.4 * pop))), fill=PLUM, anchor='mm')
+            label(img, SETS[i][0], 640, size=56, kind='serif_it', fg=CREAM, bg=None, pad=(0, 0))
+        else:
+            loc = t - cuts[3]
+            img = Image.new('RGBA', (W, H), PLUM + (255,)); d = ImageDraw.Draw(img)
+            for k in range(3):
+                pk = ease_out((loc - 0.12 * k) / 0.25)
+                if pk <= 0: continue
+                el = srcs[k].resize((820, 410), Image.LANCZOS).convert('RGBA')
+                y = 640 + k * 450
+                paste_center(img, shadowed(el, opacity=150), 600, y)
+                r = 46 * pk
+                d.ellipse((95 - r, y - r, 95 + r, y + r), fill=CREAM)
+                d.text((95, y + 2), str(k + 1), font=font('serif_bold', max(8, int(58 * pk))), fill=PLUM, anchor='mm')
+            if loc > 0.9:
+                label(img, 'Each set $12 · all 9 prints $29', 1640, size=36, kind='sans_bold', fg=PLUM, bg=YELLOW, alpha=ease_out((loc - 0.9) / 0.3), pad=(28, 14), radius=24)
+        label(img, hook, 290, size=60, maxw=940)
+        return img
+    return frame, dur
+
+BUNDLE = ['04_Gallery-Set_Kindred/Kindred_1-FoxAndFreckles_print-2x3.jpg', '04_Gallery-Set_Kindred/Kindred_2-WolfSister_print-2x3.jpg', '04_Gallery-Set_Kindred/Kindred_3-LilacSwan_print-2x3.jpg',
+          '05_Gallery-Set_Masquerade/Masquerade_1-GildedRain_print-2x3.jpg', '05_Gallery-Set_Masquerade/Masquerade_2-SongbirdMask_print-2x3.jpg', '05_Gallery-Set_Masquerade/Masquerade_3-CheckmateCarnival_print-2x3.jpg',
+          '06_Gallery-Set_Reverie/Reverie_1-HornedTeaRitual_print-2x3.jpg', '06_Gallery-Set_Reverie/Reverie_2-LotusSeraph_print-2x3.jpg', '06_Gallery-Set_Reverie/Reverie_3-SmallWorldKeeper_print-2x3.jpg']
+
+def reel_bundle(beats, hook='Nine prints. Endless personality.'):
+    b = beats
+    pops = [b[k] for k in range(9)]
+    end_t = b[9 + 4]; dur = end_t + 2.8
+    tw, th = 260, 390
+    tiles = [load(f).resize((tw, th), Image.LANCZOS).convert('RGBA') for f in BUNDLE]
+    tiles = [shadowed(t, blur=10, off=(0, 8), opacity=130) for t in tiles]
+    bg = Image.new('RGBA', (W, H), PLUM + (255,))
+    def frame(t):
+        if t >= end_t:
+            return end_card(t - end_t, load('07_Gallery-Bundle_All-3-Sets/Bundle_overview_9-prints.jpg'), 'The gallery wall bundle', 'Kindred + Masquerade + Reverie · 9 prints', 'Printable · $29', art_box=(760, 700))
+        img = bg.copy()
+        for k, pt in enumerate(pops):
+            if t < pt - 0.05: continue
+            p = ease_out((t - pt + 0.05) / 0.2)
+            cx = 540 + (k % 3 - 1) * 290; cy = 1010 + (k // 3 - 1) * 420
+            el = tiles[k]
+            if p < 1:
+                s_ = 0.7 + 0.3 * p; el = el.resize((int(el.width * s_), int(el.height * s_)), Image.BILINEAR)
+            paste_center(img, el, cx, cy)
+        zoom_t = pops[-1] + 0.4
+        if t > zoom_t:
+            z = 1 + 0.05 * ease((t - zoom_t) / (end_t - zoom_t))
+            img = img.resize((int(W * z), int(H * z)), Image.BILINEAR).crop((int((W * z - W) / 2), int((H * z - H) / 2), int((W * z - W) / 2) + W, int((H * z - H) / 2) + H))
+        label(img, hook, 250, size=64)
         return img
     return frame, dur
 
 # ------------------------------------------------------------------ registry
+
+B2 = {
+ 'b2-01_look-closer_wolf': ('lc', 'Wild_colour', 79.9, dict(art='04_Gallery-Set_Kindred/Kindred_2-WolfSister_print-2x3.jpg', focus=(250, 560), hook='Someone’s watching.\nZoom out.', title='Wolf Sister · Kindred set of 3', z0=2.3)),
+ 'b2-02_look-closer_swan': ('lc', 'River_of_Light', 9.6, dict(art='04_Gallery-Set_Kindred/Kindred_3-LilacSwan_print-2x3.jpg', focus=(650, 580), hook='This swan has company.\nZoom out.', title='Lilac Swan · Kindred set of 3', z0=2.3)),
+ 'b2-03_look-closer_gilded': ('lc', 'Carnival', 116.7, dict(art='05_Gallery-Set_Masquerade/Masquerade_1-GildedRain_print-2x3.jpg', focus=(540, 930), hook='Red lips. Gold rain.\nNow the whole face.', title='Gilded Rain · Masquerade set of 3', z0=2.2)),
+ 'b2-04_look-closer_songbird': ('lc', 'Moon_on_the_Drum.wav', 16.0, dict(art='05_Gallery-Set_Masquerade/Masquerade_2-SongbirdMask_print-2x3.jpg', focus=(880, 1000), hook='Follow the little bird.\nZoom out.', title='Songbird Mask · Masquerade set of 3', z0=2.3)),
+ 'b2-05_look-closer_checkmate': ('lc', 'Canopy_Runner', 64.4, dict(art='05_Gallery-Set_Masquerade/Masquerade_3-CheckmateCarnival_print-2x3.jpg', focus=(400, 1040), hook='Who’s winning?\nZoom out.', title='Checkmate Carnival · Masquerade set of 3', z0=2.2)),
+ 'b2-06_look-closer_horned-tea': ('lc', 'Tea_by_the_Window', 120.0, dict(art='06_Gallery-Set_Reverie/Reverie_1-HornedTeaRitual_print-2x3.jpg', focus=(420, 960), hook='Tea time, but make it\nmagic. Zoom out.', title='Horned Tea Ritual · Reverie set of 3', z0=2.2)),
+ 'b2-07_look-closer_small-world': ('lc', 'Threshold_of_New_Light', 119.5, dict(art='06_Gallery-Set_Reverie/Reverie_3-SmallWorldKeeper_print-2x3.jpg', focus=(560, 1000), hook='She is holding a whole\nworld. Zoom out.', title='Small World Keeper · Reverie set of 3', z0=2.2)),
+ 'b2-08_pick-one_kindred': ('po', 'Canopy_Runner', 203.0, dict(prints=[f'04_Gallery-Set_Kindred/Kindred_{n}_print-2x3.jpg' for n in ('1-FoxAndFreckles', '2-WolfSister', '3-LilacSwan')], tri='04_Gallery-Set_Kindred/Kindred_set-of-3_side-by-side.jpg', hook='Fox, wolf or swan?', title='Kindred · set of 3 prints')),
+ 'b2-09_pick-one_reverie': ('po', 'Reverie', 36.5, dict(prints=[f'06_Gallery-Set_Reverie/Reverie_{n}_print-2x3.jpg' for n in ('1-HornedTeaRitual', '2-LotusSeraph', '3-SmallWorldKeeper')], tri='06_Gallery-Set_Reverie/Reverie_set-of-3_side-by-side.jpg', hook='Which dream would you hang?', title='Reverie · set of 3 prints')),
+ 'b2-10_pick-your-set': ('ps', 'Moon_on_the_Drum.wav', 104.0, dict()),
+ 'b2-11_calendar_birthday': ('bm', 'New_year', 112.0, dict(hook="What's your birthday month's artwork?")),
+ 'b2-12_calendar_12-in-12': ('bm', 'Golden_Medal', 85.0, dict(hook='12 months. 12 artworks.', per=1, names=False)),
+ 'b2-13_calendar_month-vibe': ('bm', 'Threshold_of_New_Light', 181.0, dict(hook='Which month is your vibe?')),
+ 'b2-14_lockscreen_pov': ('ls', 'Clockwork_Butterfly', 100.0, dict(before='POV: your lock screen\nin 2027', after='Free · 36 wallpapers', order=(2, 0, 4, 1, 5, 3))),
+ 'b2-15_lockscreen_which': ('ls', 'Wild_colour', 8.0, dict(before='Your phone deserves\nbetter art', after='Which one are you?', order=(1, 3, 0, 5, 2, 4))),
+ 'b2-16_journal_127-pngs': ('jj', 'Tea_by_the_Window', 59.5, dict(hook='127 PNGs. Zero beige.', paper='EkaL_Paper_15_Soft.jpg', flip=True, sheets=['03_Junk-Journal-Kit/Kit_Sheet_06-Fussy-cuts-2.jpg', '03_Junk-Journal-Kit/Kit_Sheet_08-Stamps-postmarks.jpg', '03_Junk-Journal-Kit/Kit_Sheet_10-Tags-2.jpg', '03_Junk-Journal-Kit/Kit_Sheet_12-Cards-3x4.jpg'], sheet_hook='Print. Cut. Create.')),
+ 'b2-17_journal_tiny-pieces': ('jj', 'River_of_Light', 63.0, dict(hook='Tiny pieces.\nBig imagination.', step=2, sheets=['03_Junk-Journal-Kit/Kit_Sheet_03-Bottle-cap-circles.jpg', '03_Junk-Journal-Kit/Kit_Sheet_04-Inchies.jpg', '03_Junk-Journal-Kit/Kit_Sheet_14-Cards-6x4.jpg', '03_Junk-Journal-Kit/Kit_Sheet_13-Cards-3x4-2.jpg'], sheet_hook='15 papers · 127 PNGs')),
+ 'b2-18_bundle_nine-prints': ('bd', 'Clockwork_Butterfly', 130.0, dict()),
+}
+SUBS = {'lc': 'Printable art · payhip.com/ekavibes'}
+
+def build_b2(rid):
+    kind, tr, guess, kw = B2[rid]
+    a, s, beats, _ = track_info(tr, guess)
+    if kind == 'lc':
+        fr, dur = reel_look_closer(kw['art'], kw['focus'], kw['hook'], kw['title'], SUBS['lc'], z0=kw['z0'])
+    elif kind == 'po':
+        fr, dur = reel_pick_one(kw['prints'], kw['tri'], kw['hook'], kw['title'], 'Printable · $12 · payhip.com/ekavibes', beats)
+    elif kind == 'ps':
+        fr, dur = reel_pick_set(beats)
+    elif kind == 'bm':
+        fr, dur = reel_birth_month(beats, **kw)
+    elif kind == 'ls':
+        fr, dur = reel_lockscreen(beats, **kw)
+    elif kind == 'jj':
+        fr, dur = reel_journal(beats, **kw)
+    elif kind == 'bd':
+        fr, dur = reel_bundle(beats)
+    return fr, dur, a, s
+
 def build(rid):
+    if rid in B2: return build_b2(rid)
     if rid == '01_look-closer_fox':
         a, s, beats, _ = track_info('Wild_colour', 7.9)
         fr, dur = reel_look_closer('04_Gallery-Set_Kindred/Kindred_1-FoxAndFreckles_print-2x3.jpg', (430, 1080),
