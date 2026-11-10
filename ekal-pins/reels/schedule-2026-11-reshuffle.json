@@ -2,7 +2,7 @@
   "brand": "Eka L",
   "metricool_blog_id": 8002367,
   "timezone": "Europe/Paris",
-  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12.",
+  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12. FB+YT: w25 moved to Nov 25, w10 to Dec 23.",
   "amazon": "https://www.amazon.com/dp/B0HL33T9HJ",
   "posts": [
     {
@@ -166,8 +166,9 @@
     {
       "at": "2026-11-25T14:07:00",
       "network": "facebook+youtube",
-      "reel": "wildhearted/w10_slider_rhino.mp4",
-      "title": "As printed vs. your colour | Coloring book"
+      "reel": "wildhearted/w25_pencil_listening-forest.mp4",
+      "title": "Watch colored pencil bring this page to life",
+      "note": "pencil test swap"
     },
     {
       "at": "2026-11-25T18:07:00",
@@ -517,8 +518,9 @@
     {
       "at": "2026-12-23T14:07:00",
       "network": "facebook+youtube",
-      "reel": "wildhearted/w25_pencil_listening-forest.mp4",
-      "title": "Watch colored pencil bring this page to life"
+      "reel": "wildhearted/w10_slider_rhino.mp4",
+      "title": "As printed vs. your colour | Coloring book",
+      "note": "pencil test swap"
     },
     {
       "at": "2026-12-24T14:07:00",
