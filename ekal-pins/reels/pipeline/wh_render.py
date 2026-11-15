@@ -195,9 +195,9 @@ def pencil_sprite(color, length=520, width=50):
     d.polygon([(10 + 22, oy + Wd / 2 - 6), (10 + 22, oy + Wd / 2 + 6), (10, oy + Wd / 2)], fill=body + (255,))
     return im
 
-def reel_pencil(n, beats, text, origin=(0.5, 0.4), seed=1):
+def reel_pencil(n, beats, text, origin=(0.5, 0.4), seed=1, span=7.0):
     key, g, c = plate(n)
-    b = beats; t0 = b[1]; t1 = t0 + 7.0
+    b = beats; t0 = b[1]; t1 = t0 + span
     end_t = min(x for x in b if x >= t1 + 1.6); dur = end_t + 2.8
     rng = np.random.default_rng(seed)
     lum = c.mean(axis=2) / 255.0

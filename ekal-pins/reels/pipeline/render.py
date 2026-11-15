@@ -9,6 +9,7 @@ FONTS = '/home/claude/work/fonts'
 OUT = '/home/claude/work/out'
 ANALYSIS = json.load(open('/home/claude/work/audio/analysis.json'))
 
+AFILTER = ''  # optional ffmpeg audio EQ chain, ends with ','
 PLUM = (59, 18, 48); CREAM = (251, 243, 230); YELLOW = (255, 210, 63); PINK = (232, 51, 109)
 
 def font(kind, size):
@@ -465,7 +466,7 @@ def render(rid, preview_times=None):
     n = int(round(dur * FPS)); fade = 0.5
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
            '-ss', f'{start:.3f}', '-t', f'{dur:.3f}', '-i', audio,
-           '-filter_complex', f'[1:a]afade=t=in:d=0.02,afade=t=out:st={dur - fade:.3f}:d={fade},loudnorm=I=-14:TP=-1.5:LRA=11[a]',
+           '-filter_complex', f'[1:a]{AFILTER}afade=t=in:d=0.02,afade=t=out:st={dur - fade:.3f}:d={fade},loudnorm=I=-14:TP=-1.5:LRA=11[a]',
            '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18', '-pix_fmt', 'yuv420p',
            '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', '-shortest', f'{OUT}/{rid}{os.environ.get("SUFFIX", "")}.mp4']
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
