@@ -2,7 +2,7 @@
   "brand": "Eka L",
   "metricool_blog_id": 8002367,
   "timezone": "Europe/Paris",
-  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12. FB+YT: w25 moved to Nov 25, w10 to Dec 23. Batch 3 (soft music): TikTok 10:07 every other day Dec 2-16 (rooms), 18:07 Dec 18-25 (slow pencil); FB+YT 14:07 Jan 8-23.",
+  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12. FB+YT: w25 moved to Nov 25, w10 to Dec 23. Batch 3 (soft music): TikTok 10:07 every other day Dec 2-16 (rooms), 18:07 Dec 18-25 (slow pencil); FB+YT 14:07 Jan 8-23. Batch 4 (holiday/new year): TikTok 10:07 Dec 3-24 + 18:07 Dec 26-Jan 1; FB+YT 19:07 Dec 4-Jan 3.",
   "amazon": "https://www.amazon.com/dp/B0HL33T9HJ",
   "posts": [
     {
@@ -311,6 +311,13 @@
       "note": "pencil test swap"
     },
     {
+      "at": "2026-12-03T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-01_list_impossible-to-shop-for.mp4",
+      "title": "Gifts for people who are impossible to shop for",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-03T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w16_moods_chameleon.mp4",
@@ -342,6 +349,20 @@
       "title": "Meet her familiar | Grayscale to colour"
     },
     {
+      "at": "2026-12-04T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-01_list_impossible-to-shop-for.mp4",
+      "title": "Gifts for people who are impossible to shop for",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-05T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-02_list_make-with-one-kit.mp4",
+      "title": "5 Christmas makes from one printable kit",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-05T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w02_sweep_wolf.mp4",
@@ -371,6 +392,20 @@
       "network": "tiktok",
       "reel": "wildhearted/w22_bloom_second-sight.mp4",
       "title": "Look into her eyes | Grayscale coloring"
+    },
+    {
+      "at": "2026-12-06T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-02_list_make-with-one-kit.mp4",
+      "title": "5 Christmas makes from one printable kit",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-07T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-07_pin_ornaments.mp4",
+      "title": "Deck the tree with daydreams",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-07T14:07:00",
@@ -405,6 +440,20 @@
       "title": "As printed vs. your colour"
     },
     {
+      "at": "2026-12-08T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-07_pin_ornaments.mp4",
+      "title": "Deck the tree with daydreams",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-09T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-08_pin_bookmarks.mp4",
+      "title": "Little gifts for big readers",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-09T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w05_bloom_serpent.mp4",
@@ -434,6 +483,20 @@
       "network": "tiktok",
       "reel": "wildhearted/w33_moods_sacred-absurdity.mp4",
       "title": "Warm, cool or pastel?"
+    },
+    {
+      "at": "2026-12-10T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-08_pin_bookmarks.mp4",
+      "title": "Little gifts for big readers",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-11T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-09_pin_gift-wrap.mp4",
+      "title": "Make Christmas beautifully extra",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-11T14:07:00",
@@ -468,6 +531,20 @@
       "note": "pencil test swap"
     },
     {
+      "at": "2026-12-12T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-09_pin_gift-wrap.mp4",
+      "title": "Make Christmas beautifully extra",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-13T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-04_list_treat-yourself.mp4",
+      "title": "Gift shopping done? Now one for you",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-13T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w08_layers_parrot.mp4",
@@ -497,6 +574,20 @@
       "network": "tiktok",
       "reel": "wildhearted/w21_sweep_old-creatures.mp4",
       "title": "Old creatures, new colours"
+    },
+    {
+      "at": "2026-12-14T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-04_list_treat-yourself.mp4",
+      "title": "Gift shopping done? Now one for you",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-15T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-10_pin_holiday-mail.mp4",
+      "title": "Tiny art, happy holiday mail",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-15T14:07:00",
@@ -530,6 +621,20 @@
       "title": "Soft gray, then all the colour"
     },
     {
+      "at": "2026-12-16T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-10_pin_holiday-mail.mp4",
+      "title": "Tiny art, happy holiday mail",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-17T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-11_pin_small-wall.mp4",
+      "title": "Small wall. Big mood.",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-17T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w03_sweep_dragon.mp4",
@@ -540,6 +645,13 @@
       "network": "tiktok",
       "reel": "wildhearted/w28_pencil_gentleness.mp4",
       "title": "Gentle pages for loud days"
+    },
+    {
+      "at": "2026-12-18T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-12_pin_colour-recipe.mp4",
+      "title": "Let the art choose the palette",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-18T14:07:00",
@@ -555,6 +667,20 @@
       "note": "batch 3 soft music"
     },
     {
+      "at": "2026-12-18T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-03_list_no-shipping-needed.mp4",
+      "title": "Missed the shipping deadline? These arrive in seconds",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-19T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-13_pin_lilac-swan.mp4",
+      "title": "This one feels like them",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-19T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w06_bloom_lion.mp4",
@@ -566,6 +692,13 @@
       "reel": "2026-12-soft/b3-10_slowpencil_joy.mp4",
       "title": "Joy, one pencil stroke at a time",
       "note": "batch 3 soft music"
+    },
+    {
+      "at": "2026-12-20T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-03_list_no-shipping-needed.mp4",
+      "title": "Missed the shipping deadline? These arrive in seconds",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-20T14:07:00",
@@ -581,6 +714,20 @@
       "note": "batch 3 soft music"
     },
     {
+      "at": "2026-12-20T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-13_pin_lilac-swan.mp4",
+      "title": "This one feels like them",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-21T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-14_pin_table-favour.mp4",
+      "title": "Make every seat feel special",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-21T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w09_layers_fox.mp4",
@@ -592,6 +739,13 @@
       "reel": "2026-12-soft/b3-12_slowpencil_many-eyed-house.mp4",
       "title": "A quiet house, slowly filling with colour",
       "note": "batch 3 soft music"
+    },
+    {
+      "at": "2026-12-22T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-15_pin_kindred-spirit.mp4",
+      "title": "Find their kindred spirit",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-22T14:07:00",
@@ -607,6 +761,20 @@
       "note": "batch 3 soft music"
     },
     {
+      "at": "2026-12-22T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-17_pin_memory-journal.mp4",
+      "title": "Save the little Christmas moments",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-23T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-16_pin_folded-world.mp4",
+      "title": "A whole world, folded small",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-23T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w10_slider_rhino.mp4",
@@ -619,6 +787,13 @@
       "reel": "2026-12-soft/b3-14_slowpencil_rest.mp4",
       "title": "Rest is allowed",
       "note": "batch 3 soft music"
+    },
+    {
+      "at": "2026-12-24T10:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-17_pin_memory-journal.mp4",
+      "title": "Save the little Christmas moments",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-24T14:07:00",
@@ -653,10 +828,31 @@
       "title": "Pick her mood"
     },
     {
+      "at": "2026-12-26T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-18_pin_digital-daydream.mp4",
+      "title": "Your next digital daydream",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-26T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-05_list_2027-starter-pack.mp4",
+      "title": "Your 2027 starter pack",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-27T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w22_bloom_second-sight.mp4",
       "title": "Look into her eyes | Grayscale coloring"
+    },
+    {
+      "at": "2026-12-27T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-05_list_2027-starter-pack.mp4",
+      "title": "Your 2027 starter pack",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-28T14:07:00",
@@ -665,10 +861,31 @@
       "title": "Your morning ritual, in colour"
     },
     {
+      "at": "2026-12-28T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-19_pin_cobalt-new-year.mp4",
+      "title": "New year. More colour.",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-28T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-19_pin_cobalt-new-year.mp4",
+      "title": "New year. More colour.",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-29T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w30_slider_bull-moon.mp4",
       "title": "As printed vs. your colour"
+    },
+    {
+      "at": "2026-12-29T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-06_list_which-corner.mp4",
+      "title": "New year, new wall. Which one is you? 1, 2 or 3?",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2026-12-30T14:07:00",
@@ -677,16 +894,51 @@
       "title": "Ride the wind in full colour"
     },
     {
+      "at": "2026-12-30T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-20_pin_nine-prints.mp4",
+      "title": "9 prints. Endless personality.",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2026-12-30T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-06_list_which-corner.mp4",
+      "title": "New year, new wall. Which one is you? 1, 2 or 3?",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2026-12-31T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w33_moods_sacred-absurdity.mp4",
       "title": "Warm, cool or pastel?"
     },
     {
+      "at": "2026-12-31T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-21_pin_masquerade-glow.mp4",
+      "title": "Make the season spectacular",
+      "note": "batch 4 holiday/new year"
+    },
+    {
       "at": "2027-01-01T14:07:00",
       "network": "facebook+youtube",
       "reel": "wildhearted/w23_bloom_impossible-cup.mp4",
       "title": "A cup full of colour"
+    },
+    {
+      "at": "2027-01-01T18:07:00",
+      "network": "tiktok",
+      "reel": "2026-12-holiday/b4-22_pin_reverie-corner.mp4",
+      "title": "A little wonder for your cosiest corner",
+      "note": "batch 4 holiday/new year"
+    },
+    {
+      "at": "2027-01-01T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-20_pin_nine-prints.mp4",
+      "title": "9 prints. Endless personality.",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2027-01-02T14:07:00",
@@ -699,6 +951,13 @@
       "network": "facebook+youtube",
       "reel": "wildhearted/w31_slider_messenger.mp4",
       "title": "Swipe the city into colour"
+    },
+    {
+      "at": "2027-01-03T19:07:00",
+      "network": "facebook+youtube",
+      "reel": "2026-12-holiday/b4-22_pin_reverie-corner.mp4",
+      "title": "A little wonder for your cosiest corner",
+      "note": "batch 4 holiday/new year"
     },
     {
       "at": "2027-01-04T14:07:00",
