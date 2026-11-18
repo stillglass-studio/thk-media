@@ -21,7 +21,7 @@
     "ROMANCE": "Christmas Romance Books"
   },
   "slots_paris": [
-    "15:00",
+    "18:00",
     "21:00"
   ],
   "pending": [],
@@ -37,7 +37,7 @@
   },
   "rules": [
     "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
-    "At most one pin per book (per Amazon link) per day; max 5 pins per day in total, slots 13:00, 15:00, 18:00, 21:00, 23:30 Paris."
+    "At most one pin per book (per Amazon link) per day; 2 pins a day since Nov 18, 2026 (owner-approved): 18:00 Paris = Cathedral Creatures, 21:00 Paris = one other book."
   ],
   "books": {
     "CC": "Cathedral Creatures",
