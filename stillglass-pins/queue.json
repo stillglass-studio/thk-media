@@ -8,7 +8,8 @@
     "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
     "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
     "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ",
-    "TYPY": "https://www.amazon.com/dp/B0H6JMBVPQ"
+    "TYPY": "https://www.amazon.com/dp/B0H6JMBVPQ",
+    "OL2": "https://www.amazon.com/dp/B0HK7ZSHR7"
   },
   "boards": {
     "SPLIT": "Stained Glass Coloring Pages for Adults",
@@ -49,5 +50,8 @@
     "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
     "F90": "The First 90 Days with Jesus (Tom Fenwick)",
     "TYPY": "The Years I Prayed for You: A Mother's Prayer Keepsake for Her Child"
+  },
+  "notes": {
+    "OL": "Two valid Amazon listings: B0HK9QYCMD and B0HK7ZSHR7 (one ebook, one paperback). Either is fine; alternate between them."
   }
 }
