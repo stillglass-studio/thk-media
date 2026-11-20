@@ -1,57 +1,64 @@
 {
-  "links": {
-    "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
-    "CW": "https://www.amazon.com/dp/B0H632JLGW",
-    "SG": "https://www.amazon.com/dp/B0H68DH1B9",
-    "OL": "https://www.amazon.com/dp/B0HK9QYCMD",
-    "ADV": "https://www.amazon.com/dp/B0HJDJS66V",
-    "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
-    "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
-    "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ",
-    "TYPY": "https://www.amazon.com/dp/B0H6JMBVPQ",
-    "OL2": "https://www.amazon.com/dp/B0HK7ZSHR7"
-  },
-  "boards": {
-    "SPLIT": "Stained Glass Coloring Pages for Adults",
-    "PEEK": "Stained Glass Coloring Pages for Adults",
-    "GIFT": "Christmas Gifts for Christian Women",
-    "HERO": "Gifts for Women Who Love Coloring",
-    "COZY": "Gifts for Women Who Love Coloring",
-    "SET": "Christian Coloring Books for Adults",
-    "BRAND": "Stillglass Collection",
-    "ROMANCE": "Christmas Romance Books"
-  },
-  "slots_paris": [
-    "18:00",
-    "21:00"
-  ],
-  "pending": [],
-  "board_ids": {
-    "Gifts for Women Who Love Coloring": "594123444532833548",
-    "Stained Glass Coloring Pages for Adults": "594123444532833545",
-    "Christmas Gifts for Christian Women": "594123444532833547",
-    "Stillglass Collection": "594123444532833549",
-    "Christian Coloring Books for Adults": "594123444532833546",
-    "Christmas Romance Books": "594123444532833957",
-    "Bible Puzzles & Activities": "594123444532833980",
-    "Christian Devotionals": "594123444532815157"
-  },
-  "rules": [
-    "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
-    "At most one pin per book (per Amazon link) per day; 2 pins a day since Nov 18, 2026 (owner-approved): 18:00 Paris = Cathedral Creatures, 21:00 Paris = one other book."
-  ],
-  "books": {
-    "CC": "Cathedral Creatures",
-    "CW": "Church Windows",
-    "SG": "Sacred Glass",
-    "OL": "The Longest Night at Olivet Chapel (Alma Simon)",
-    "ADV": "Advent & Christmas Bible Activity Book",
-    "BAB": "Bible Activity Book",
-    "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
-    "F90": "The First 90 Days with Jesus (Tom Fenwick)",
-    "TYPY": "The Years I Prayed for You: A Mother's Prayer Keepsake for Her Child"
-  },
-  "notes": {
-    "OL": "Two valid Amazon listings: B0HK9QYCMD and B0HK7ZSHR7 (one ebook, one paperback). Either is fine; alternate between them."
-  }
+ "links": {
+  "CC": "https://www.amazon.com/dp/B0HJ1DBC77",
+  "CW": "https://www.amazon.com/dp/B0H632JLGW",
+  "SG": "https://www.amazon.com/dp/B0H68DH1B9",
+  "OL": "https://www.amazon.com/dp/B0HK9QYCMD",
+  "ADV": "https://www.amazon.com/dp/B0HJDJS66V",
+  "BAB": "https://www.amazon.com/dp/B0H6QZ65X4",
+  "QG": "https://www.amazon.com/dp/B0H66CYZ9R",
+  "F90": "https://www.amazon.com/dp/B0HJ8BXKPZ",
+  "TYPY": "https://www.amazon.com/dp/B0H6JMBVPQ",
+  "OL2": "https://www.amazon.com/dp/B0HK7ZSHR7",
+  "WS1": "https://www.amazon.com/dp/B0H6NRK9TX",
+  "WS2": "https://www.amazon.com/dp/B0H6V8K2RH",
+  "WSS": "https://www.amazon.com/dp/B0HH526WT9"
+ },
+ "boards": {
+  "SPLIT": "Stained Glass Coloring Pages for Adults",
+  "PEEK": "Stained Glass Coloring Pages for Adults",
+  "GIFT": "Christmas Gifts for Christian Women",
+  "HERO": "Gifts for Women Who Love Coloring",
+  "COZY": "Gifts for Women Who Love Coloring",
+  "SET": "Christian Coloring Books for Adults",
+  "BRAND": "Stillglass Collection",
+  "ROMANCE": "Christmas Romance Books"
+ },
+ "slots_paris": [
+  "18:00",
+  "21:00"
+ ],
+ "pending": [],
+ "board_ids": {
+  "Gifts for Women Who Love Coloring": "594123444532833548",
+  "Stained Glass Coloring Pages for Adults": "594123444532833545",
+  "Christmas Gifts for Christian Women": "594123444532833547",
+  "Stillglass Collection": "594123444532833549",
+  "Christian Coloring Books for Adults": "594123444532833546",
+  "Christmas Romance Books": "594123444532833957",
+  "Bible Puzzles & Activities": "594123444532833980",
+  "Christian Devotionals": "594123444532815157"
+ },
+ "rules": [
+  "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
+  "At most one pin per book per day (word-search volumes count as one family). Owner decision Nov 19: back to 5 pins/day until Dec 20 (6 when Olivet has two), about 3/day after. Account stays a mix of all titles."
+ ],
+ "books": {
+  "CC": "Cathedral Creatures",
+  "CW": "Church Windows",
+  "SG": "Sacred Glass",
+  "OL": "The Longest Night at Olivet Chapel (Alma Simon)",
+  "ADV": "Advent & Christmas Bible Activity Book",
+  "BAB": "Bible Activity Book",
+  "QG": "The Quiet Garden: A 21-Day Devotional Journey into Peace",
+  "F90": "The First 90 Days with Jesus (Tom Fenwick)",
+  "TYPY": "The Years I Prayed for You: A Mother's Prayer Keepsake for Her Child",
+  "WS1": "Bible Word Search, Volume One: 20-Point Extra Large Print, 100 Scripture Puzzles for Adults & Seniors (1,386 words)",
+  "WS2": "Bible Word Search, Volume Two: 20-Point Extra Large Print, 100 Scripture Puzzles for Adults & Seniors (1,300 words)",
+  "WSS": "Bible Word Search series page (Volumes One and Two)"
+ },
+ "notes": {
+  "OL": "Two valid Amazon listings: B0HK9QYCMD and B0HK7ZSHR7 (one ebook, one paperback). Either is fine; alternate between them.",
+  "WS": "Added Nov 20, 2026 for gift season. WS1, WS2 and WSS count as ONE book family: at most one word-search pin per day. Verified facts: 100 puzzles per volume, one per page, 20-pt grid, 16-pt word lists, answer key in back (15-pt, two per page), KJV, screen-free. Vol 1 Puzzle 1 = Creation; Vol 2 Puzzle 1 = Adam and Eve. 12 pins scheduled Nov 20 - Dec 12 (see snapshot). Real covers in pipeline/assets/WS1_cover.png, WS2_cover.png."
+ }
 }
