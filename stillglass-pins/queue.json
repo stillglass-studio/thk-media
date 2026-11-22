@@ -12,7 +12,11 @@
   "OL2": "https://www.amazon.com/dp/B0HK7ZSHR7",
   "WS1": "https://www.amazon.com/dp/B0H6NRK9TX",
   "WS2": "https://www.amazon.com/dp/B0H6V8K2RH",
-  "WSS": "https://www.amazon.com/dp/B0HH526WT9"
+  "WSS": "https://www.amazon.com/dp/B0HH526WT9",
+  "PH_NY01": "https://payhip.com/b/4i5fa",
+  "PH_NY02": "https://payhip.com/b/0cfzq",
+  "PH_SR02": "https://payhip.com/b/9Usn2",
+  "PH_LM04": "https://payhip.com/b/iGE3U"
  },
  "boards": {
   "SPLIT": "Stained Glass Coloring Pages for Adults",
@@ -55,10 +59,15 @@
   "TYPY": "The Years I Prayed for You: A Mother's Prayer Keepsake for Her Child",
   "WS1": "Bible Word Search, Volume One: 20-Point Extra Large Print, 100 Scripture Puzzles for Adults & Seniors (1,386 words)",
   "WS2": "Bible Word Search, Volume Two: 20-Point Extra Large Print, 100 Scripture Puzzles for Adults & Seniors (1,300 words)",
-  "WSS": "Bible Word Search series page (Volumes One and Two)"
+  "WSS": "Bible Word Search series page (Volumes One and Two)",
+  "PH_NY01": "Bible in a Year 2027 printable journal (Payhip)",
+  "PH_NY02": "Christian Coloring Calendar 2027 printable (Payhip)",
+  "PH_SR02": "January Large Print Faith Pack for seniors (Payhip)",
+  "PH_LM04": "FREE January 2027 Bible Reading Plan (Payhip lead magnet)"
  },
  "notes": {
   "OL": "Two valid Amazon listings: B0HK9QYCMD and B0HK7ZSHR7 (one ebook, one paperback). Either is fine; alternate between them.",
-  "WS": "Added Nov 20, 2026 for gift season. WS1, WS2 and WSS count as ONE book family: at most one word-search pin per day. Verified facts: 100 puzzles per volume, one per page, 20-pt grid, 16-pt word lists, answer key in back (15-pt, two per page), KJV, screen-free. Vol 1 Puzzle 1 = Creation; Vol 2 Puzzle 1 = Adam and Eve. 12 pins scheduled Nov 20 - Dec 12 (see snapshot). Real covers in pipeline/assets/WS1_cover.png, WS2_cover.png."
+  "WS": "Added Nov 20, 2026 for gift season. WS1, WS2 and WSS count as ONE book family: at most one word-search pin per day. Verified facts: 100 puzzles per volume, one per page, 20-pt grid, 16-pt word lists, answer key in back (15-pt, two per page), KJV, screen-free. Vol 1 Puzzle 1 = Creation; Vol 2 Puzzle 1 = Adam and Eve. 12 pins scheduled Nov 20 - Dec 12 (see snapshot). Real covers in pipeline/assets/WS1_cover.png, WS2_cover.png.",
+  "PH": "Payhip printables added Nov 22, 2026. Owner OK with more than 5 pins/day. Seasonal: New Year/January; stop pinning after mid-January 2027. One pin per product per day. Images and copy supplied by owner (not verified against product files)."
  }
 }
