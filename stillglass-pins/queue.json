@@ -41,7 +41,14 @@
   "Christian Coloring Books for Adults": "594123444532833546",
   "Christmas Romance Books": "594123444532833957",
   "Bible Puzzles & Activities": "594123444532833980",
-  "Christian Devotionals": "594123444532815157"
+  "Christian Devotionals": "594123444532815157",
+  "Bible Reading Plans & Printables": "594123444532838769",
+  "Large Print Activities for Seniors": "594123444532838770",
+  "Advent & Christmas Bible Activities": "594123444532838771",
+  "Christmas Gifts for Grandparents & Seniors": "594123444532838772",
+  "Prayers for Children & Mom Gifts": "594123444532838773",
+  "Blue Christmas & Hope in Grief": "594123444532838774",
+  "Christian Calendars & Planners 2027": "594123444532838775"
  },
  "rules": [
   "Never use an image that shows a book cover unless it is the real cover (composited from pipeline/assets). GPT-rendered covers are rejected.",
@@ -68,6 +75,7 @@
  "notes": {
   "OL": "Two valid Amazon listings: B0HK9QYCMD and B0HK7ZSHR7 (one ebook, one paperback). Either is fine; alternate between them.",
   "WS": "Added Nov 20, 2026 for gift season. WS1, WS2 and WSS count as ONE book family: at most one word-search pin per day. Verified facts: 100 puzzles per volume, one per page, 20-pt grid, 16-pt word lists, answer key in back (15-pt, two per page), KJV, screen-free. Vol 1 Puzzle 1 = Creation; Vol 2 Puzzle 1 = Adam and Eve. 12 pins scheduled Nov 20 - Dec 12 (see snapshot). Real covers in pipeline/assets/WS1_cover.png, WS2_cover.png.",
-  "PH": "Payhip printables added Nov 22, 2026. Owner OK with more than 5 pins/day. Seasonal: New Year/January; stop pinning after mid-January 2027. One pin per product per day. Images and copy supplied by owner (not verified against product files)."
+  "PH": "Payhip printables added Nov 22, 2026. Owner OK with more than 5 pins/day. Seasonal: New Year/January; stop pinning after mid-January 2027. One pin per product per day. Images and copy supplied by owner (not verified against product files).",
+  "BOARDS": "New boards created Nov 22, 2026. Use: reading plans/Bible-in-a-year/F90 reading pins -> Bible Reading Plans & Printables; word searches, senior faith pack, large-print puzzles -> Large Print Activities for Seniors; Advent book (non-gift, non-coloring) -> Advent & Christmas Bible Activities; gifts for grandparents/seniors (word search, grandma puzzles) -> Christmas Gifts for Grandparents & Seniors (none after Dec 20); The Years I Prayed for You -> Prayers for Children & Mom Gifts; Olivet grief/Longest Night pins -> Blue Christmas & Hope in Grief; Coloring Calendar 2027 -> Christian Calendars & Planners 2027. Christian Devotionals now mainly Quiet Garden and First 90 Days."
  }
 }
