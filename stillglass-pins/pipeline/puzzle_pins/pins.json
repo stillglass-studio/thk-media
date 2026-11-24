@@ -1,0 +1,386 @@
+[
+ {
+  "id": "ws1_nativity",
+  "kind": "ws",
+  "src": "/home/claude/ws/v1.txt",
+  "n": 23,
+  "count": 13,
+  "cover": "WS1",
+  "kicker": "Puzzle 23 · Large print",
+  "h1": "Can you find all 13 <em>Nativity</em> words?",
+  "book": "Bible Word Search · Volume One",
+  "facts": "100 Scripture puzzles in 20-point print<br>Answer key included",
+  "cta": "99 more puzzles inside"
+ },
+ {
+  "id": "ws2_shepherds",
+  "kind": "ws",
+  "src": "/home/claude/ws/v2.txt",
+  "n": 71,
+  "count": 13,
+  "cover": "WS2",
+  "kicker": "Puzzle 71 · Large print",
+  "h1": "Find the 13 words of <em>the shepherds' night</em>",
+  "book": "Bible Word Search · Volume Two",
+  "facts": "100 Scripture puzzles in 20-point print<br>Answer key included",
+  "cta": "99 more puzzles inside"
+ },
+ {
+  "id": "ws1_wisemen",
+  "kind": "ws",
+  "src": "/home/claude/ws/v1.txt",
+  "n": 83,
+  "count": 14,
+  "cover": "WS1",
+  "kicker": "Puzzle 83 · Large print",
+  "h1": "Follow the star: <em>find all 14 words</em>",
+  "book": "Bible Word Search · Volume One",
+  "facts": "100 Scripture puzzles in 20-point print<br>Answer key included",
+  "cta": "99 more puzzles inside"
+ },
+ {
+  "id": "ws1_psalm23",
+  "kind": "ws",
+  "src": "/home/claude/ws/v1.txt",
+  "n": 45,
+  "count": 14,
+  "cover": "WS1",
+  "kicker": "Puzzle 45 · Large print",
+  "h1": "A <em>Psalm 23</em> word search: find all 14",
+  "book": "Bible Word Search · Volume One",
+  "facts": "100 Scripture puzzles in 20-point print<br>Answer key included",
+  "cta": "99 more puzzles inside"
+ },
+ {
+  "id": "adv_trivia_journey",
+  "kind": "trivia",
+  "cover": "ADV",
+  "kicker": "Christmas Bible Trivia · KJV",
+  "h1": "How well do you know <em>the Christmas story?</em>",
+  "sub": "5 questions from Luke 2",
+  "qs": [
+   [
+    "1. Who issued the decree that all the world should be taxed?",
+    [
+     "Herod",
+     "Caesar Augustus",
+     "Pilate",
+     "Cyrenius"
+    ]
+   ],
+   [
+    "2. From which city did Joseph go up?",
+    [
+     "Cana",
+     "Nazareth",
+     "Capernaum",
+     "Bethany"
+    ]
+   ],
+   [
+    "3. Bethlehem is called the city of whom?",
+    [
+     "Jacob",
+     "Abraham",
+     "David",
+     "Solomon"
+    ]
+   ],
+   [
+    "4. What was the child wrapped in?",
+    [
+     "A linen cloth",
+     "Swaddling clothes",
+     "A shepherd's cloak",
+     "Fine wool"
+    ]
+   ],
+   [
+    "5. On which day was he named Jesus?",
+    [
+     "The first day",
+     "The third day",
+     "The eighth day",
+     "The fortieth day"
+    ]
+   ]
+  ],
+  "book": "Advent &amp; Christmas Bible Activity Book",
+  "facts": "80 large-print Christmas puzzles<br>Complete answer keys at the back",
+  "cta": "See the answers inside"
+ },
+ {
+  "id": "adv_crypto_luke211",
+  "kind": "crypto",
+  "cover": "ADV",
+  "kicker": "Christmas Bible Cryptogram",
+  "h1": "Decode the angel's <em>Christmas announcement</em>",
+  "sub": "Each letter stands for another",
+  "ref": "Cryptogram 1 · Luke 2:11",
+  "cipher": [
+   "CDE RBXD FDR GW MDEB XUGW",
+   "QSF GB XUN YGXF DC QSTGQ",
+   "S WSTGDRE, HUGYU GW",
+   "YUEGWX XUN PDEQ."
+  ],
+  "starters": "G = I &nbsp;·&nbsp; D = O &nbsp;·&nbsp; X = T",
+  "hint": "Hint: XUN appears twice. Start there.",
+  "book": "Advent &amp; Christmas Bible Activity Book",
+  "facts": "18 Christmas cryptograms and 62 more puzzles<br>Complete answer keys at the back",
+  "cta": "Check your answer inside",
+  "cfs": 40
+ },
+ {
+  "id": "bab_trivia_numbers",
+  "kind": "trivia",
+  "cover": "BAB",
+  "kicker": "Bible Trivia · Bible Numbers",
+  "h1": "Bible numbers quiz: <em>how many can you get?</em>",
+  "qs": [
+   [
+    "1. How many books are in the Bible (Protestant canon)?",
+    [
+     "Sixty-six",
+     "Twenty-seven",
+     "Thirty-nine",
+     "Seventy-two"
+    ]
+   ],
+   [
+    "2. How many days and nights did it rain during the flood?",
+    [
+     "Seven",
+     "Twelve",
+     "Forty",
+     "One hundred"
+    ]
+   ],
+   [
+    "3. How many people were saved on the ark?",
+    [
+     "Two",
+     "Four",
+     "Twelve",
+     "Eight"
+    ]
+   ],
+   [
+    "4. How many tribes of Israel were there?",
+    [
+     "Seven",
+     "Twelve",
+     "Ten",
+     "Forty"
+    ]
+   ],
+   [
+    "5. How many years did Israel wander in the wilderness?",
+    [
+     "Seven",
+     "Twenty",
+     "Forty",
+     "Seventy"
+    ]
+   ]
+  ],
+  "book": "Bible Activity Book",
+  "facts": "106 large-print puzzles: word searches, crosswords,<br>cryptograms, trivia and mazes · answer key",
+  "cta": "See the answers inside"
+ },
+ {
+  "id": "bab_crypto_1john419",
+  "kind": "crypto",
+  "cover": "BAB",
+  "kicker": "Bible Cryptogram",
+  "h1": "Can you crack this <em>8-word</em> Bible verse?",
+  "sub": "Each letter stands for another",
+  "ref": "Cryptogram 8 · 1 John 4:19",
+  "cipher": [
+   "NC QFRC KDG,",
+   "ZCJWIVC KC SDBVO",
+   "QFRCY IV."
+  ],
+  "starters": "C = E &nbsp;·&nbsp; V = S",
+  "hint": "Hint: the two-letter words are a good place to start.",
+  "book": "Bible Activity Book",
+  "facts": "27 cryptograms among 106 large-print puzzles<br>Answer key at the back",
+  "cta": "Check your answer inside",
+  "cfs": 60
+ },
+ {
+  "id": "bab_trivia_firsts",
+  "kind": "trivia",
+  "cover": "BAB",
+  "kicker": "Bible Trivia · Firsts and Lasts",
+  "h1": "Bible firsts and lasts: <em>5 quick questions</em>",
+  "qs": [
+   [
+    "1. What is the last book of the Bible?",
+    [
+     "Revelation",
+     "Jude",
+     "Acts",
+     "Romans"
+    ]
+   ],
+   [
+    "2. What is the shortest verse in the King James Bible?",
+    [
+     "Jesus wept",
+     "God is love",
+     "Rejoice evermore",
+     "Pray without ceasing"
+    ]
+   ],
+   [
+    "3. Which is the longest chapter in the Bible?",
+    [
+     "Psalm 23",
+     "Isaiah 53",
+     "Matthew 5",
+     "Psalm 119"
+    ]
+   ],
+   [
+    "4. Which book of the Old Testament comes last?",
+    [
+     "Zechariah",
+     "Haggai",
+     "Nehemiah",
+     "Malachi"
+    ]
+   ],
+   [
+    "5. With what word does the Bible end?",
+    [
+     "Hallelujah",
+     "Amen",
+     "Selah",
+     "Glory"
+    ]
+   ]
+  ],
+  "book": "Bible Activity Book",
+  "facts": "106 large-print puzzles: word searches, crosswords,<br>cryptograms, trivia and mazes · answer key",
+  "cta": "See the answers inside"
+ },
+ {
+  "id": "adv_family_quiz",
+  "kind": "trivia",
+  "cover": "ADV",
+  "kicker": "Christmas Eve family idea",
+  "h1": "Read Luke 2 together, <em>then ask these 5</em>",
+  "sub": "Answers at the bottom. No peeking!",
+  "qs": [
+   [
+    "1. What shone round about the shepherds?",
+    [
+     "The star",
+     "A lantern",
+     "The glory of the Lord",
+     "The moon"
+    ]
+   ],
+   [
+    "2. How does Scripture describe their fear?",
+    [
+     "They trembled",
+     "They were sore afraid",
+     "They fled",
+     "They fell asleep"
+    ]
+   ],
+   [
+    "3. The good tidings would be to whom?",
+    [
+     "Israel only",
+     "All people",
+     "The house of David",
+     "The shepherds alone"
+    ]
+   ],
+   [
+    "4. What did the heavenly host say first?",
+    [
+     "“Fear not”",
+     "“Peace be still”",
+     "“Glory to God in the highest”",
+     "“Behold”"
+    ]
+   ],
+   [
+    "5. How did the shepherds come to Bethlehem?",
+    [
+     "With haste",
+     "At dawn",
+     "By way of Jerusalem",
+     "After many days"
+    ]
+   ]
+  ],
+  "ans": "Answers: 1 C · 2 B · 3 B · 4 C · 5 A",
+  "book": "Advent &amp; Christmas Bible Activity Book",
+  "facts": "80 large-print Christmas puzzles, a 25-day<br>reading plan and complete answer keys",
+  "cta": "More Christmas trivia inside"
+ },
+ {
+  "id": "bab_howto_crypto",
+  "kind": "steps",
+  "cover": "BAB",
+  "kicker": "How to solve a Bible cryptogram",
+  "h1": "Crack any verse code <em>in 4 steps</em>",
+  "steps": [
+   [
+    "Fill in the starter letters first",
+    "Write each given letter everywhere it appears. Two or three letters can open up a whole verse."
+   ],
+   [
+    "Solve one-letter words",
+    "A lone letter is almost always A or I, which gives you another letter for free."
+   ],
+   [
+    "Look for common short words",
+    "THE, AND, OF, HE and LORD turn up again and again in the King James Bible."
+   ],
+   [
+    "Use the reference",
+    "Each cryptogram is labelled with its verse. Stuck? Open your Bible and check one word."
+   ]
+  ],
+  "book": "Bible Activity Book",
+  "facts": "27 Bible cryptograms with starter letters,<br>plus 79 more large-print puzzles",
+  "cta": "Try them yourself"
+ },
+ {
+  "id": "wss_tips",
+  "kind": "steps",
+  "cover": "WS1+WS2",
+  "kicker": "Word search tips",
+  "h1": "5 ways to find words <em>faster</em>",
+  "steps": [
+   [
+    "Start with the rare letters",
+    "Q, Z, X and J stand out in a grid. If a word has one, look for it first."
+   ],
+   [
+    "Check all eight directions",
+    "Words can run across, down, diagonally and backwards."
+   ],
+   [
+    "Hunt for double letters",
+    "Pairs like LL, SS or EE are easy to spot, as in GALILEE or JESSE."
+   ],
+   [
+    "Slide a pencil along each row",
+    "It keeps your place and rests your eyes."
+   ],
+   [
+    "Cross words off as you go",
+    "The shorter list makes the last few easier to find."
+   ]
+  ],
+  "book": "Bible Word Search · Vol. 1 &amp; 2",
+  "facts": "200 Scripture puzzles in 20-point print<br>Answer keys included",
+  "cta": "Find your next puzzle"
+ }
+]
