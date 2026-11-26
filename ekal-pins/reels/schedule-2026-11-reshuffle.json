@@ -2,7 +2,7 @@
   "brand": "Eka L",
   "metricool_blog_id": 8002367,
   "timezone": "Europe/Paris",
-  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12. FB+YT: w25 moved to Nov 25, w10 to Dec 23. Batch 3 (soft music): TikTok 10:07 every other day Dec 2-16 (rooms), 18:07 Dec 18-25 (slow pencil); FB+YT 14:07 Jan 8-23. Batch 4 (holiday/new year): TikTok 10:07 Dec 3-24 + 18:07 Dec 26-Jan 1; FB+YT 19:07 Dec 4-Jan 3.",
+  "note": "Reshuffle of Nov 10: TikTok 10:07 = Eka L. shop reels, 18:07 = Wildhearted, Nov 14 - Dec 1. Facebook + YouTube 14:07 daily, Nov 23 - Dec 22, alternating Wildhearted and Eka L. Earlier posts (Nov 11-22 on FB/YT, Nov 11-13 and Nov 14 10:07 on TikTok) are unchanged; see the w1/w2 files. Wildhearted batch 2 (w19-w34): TikTok 18:07 Dec 2-17, Facebook + YouTube 14:07 Dec 23 - Jan 7. Pencil test: w25/w26/w27 moved to TikTok Nov 16/19/22 (18:07) for the Nov 24 cadence check; w04/w16/w05 moved to Dec 2/7/12. FB+YT: w25 moved to Nov 25, w10 to Dec 23. Batch 3 (soft music): TikTok 10:07 every other day Dec 2-16 (rooms), 18:07 Dec 18-25 (slow pencil); FB+YT 14:07 Jan 8-23. Batch 4 (holiday/new year): TikTok 10:07 Dec 3-24 + 18:07 Dec 26-Jan 1; FB+YT 19:07 Dec 4-Jan 3. Nov 26 YouTube audit: YouTube removed from 27 posts that repeated a product or plate already on the channel, or used formats that underperform there (look-closer zooms, calendar, lock-screen and bundle repeats). Facebook kept.",
   "amazon": "https://www.amazon.com/dp/B0HL33T9HJ",
   "posts": [
     {
@@ -261,9 +261,10 @@
     },
     {
       "at": "2026-11-30T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-15_lockscreen_which.mp4",
-      "title": "Which lock screen are you?"
+      "title": "Which lock screen are you?",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-11-30T18:07:00",
@@ -299,9 +300,10 @@
     },
     {
       "at": "2026-12-02T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-02_look-closer_swan.mp4",
-      "title": "This swan has company | Look closer"
+      "title": "This swan has company | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-02T18:07:00",
@@ -338,9 +340,10 @@
     },
     {
       "at": "2026-12-04T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-17_journal_tiny-pieces.mp4",
-      "title": "Tiny pieces, big imagination | Junk journal kit"
+      "title": "Tiny pieces, big imagination | Junk journal kit",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-04T18:07:00",
@@ -429,9 +432,10 @@
     },
     {
       "at": "2026-12-08T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-03_look-closer_gilded.mp4",
-      "title": "Red lips. Gold rain. | Look closer"
+      "title": "Red lips. Gold rain. | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-08T18:07:00",
@@ -441,10 +445,10 @@
     },
     {
       "at": "2026-12-08T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-07_pin_ornaments.mp4",
       "title": "Deck the tree with daydreams",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-09T10:07:00",
@@ -474,9 +478,10 @@
     },
     {
       "at": "2026-12-10T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-06_look-closer_horned-tea.mp4",
-      "title": "Tea time, but make it magic | Look closer"
+      "title": "Tea time, but make it magic | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-10T18:07:00",
@@ -486,10 +491,10 @@
     },
     {
       "at": "2026-12-10T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-08_pin_bookmarks.mp4",
       "title": "Little gifts for big readers",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-11T10:07:00",
@@ -519,9 +524,10 @@
     },
     {
       "at": "2026-12-12T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-04_look-closer_songbird.mp4",
-      "title": "Follow the little bird | Look closer"
+      "title": "Follow the little bird | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-12T18:07:00",
@@ -565,9 +571,10 @@
     },
     {
       "at": "2026-12-14T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-05_look-closer_checkmate.mp4",
-      "title": "Who's winning? | Look closer"
+      "title": "Who's winning? | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-14T18:07:00",
@@ -577,10 +584,10 @@
     },
     {
       "at": "2026-12-14T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-04_list_treat-yourself.mp4",
       "title": "Gift shopping done? Now one for you",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-15T10:07:00",
@@ -610,9 +617,10 @@
     },
     {
       "at": "2026-12-16T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-11-w2/b2-07_look-closer_small-world.mp4",
-      "title": "She is holding a whole world | Look closer"
+      "title": "She is holding a whole world | Look closer",
+      "note": "YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-16T18:07:00",
@@ -622,10 +630,10 @@
     },
     {
       "at": "2026-12-16T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-10_pin_holiday-mail.mp4",
       "title": "Tiny art, happy holiday mail",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-17T10:07:00",
@@ -715,10 +723,10 @@
     },
     {
       "at": "2026-12-20T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-13_pin_lilac-swan.mp4",
       "title": "This one feels like them",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-21T10:07:00",
@@ -869,10 +877,10 @@
     },
     {
       "at": "2026-12-28T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-19_pin_cobalt-new-year.mp4",
       "title": "New year. More colour.",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2026-12-29T14:07:00",
@@ -935,10 +943,10 @@
     },
     {
       "at": "2027-01-01T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-20_pin_nine-prints.mp4",
       "title": "9 prints. Endless personality.",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-02T14:07:00",
@@ -954,10 +962,10 @@
     },
     {
       "at": "2027-01-03T19:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-holiday/b4-22_pin_reverie-corner.mp4",
       "title": "A little wonder for your cosiest corner",
-      "note": "batch 4 holiday/new year"
+      "note": "batch 4 holiday/new year; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-04T14:07:00",
@@ -985,10 +993,10 @@
     },
     {
       "at": "2027-01-08T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-01_room_calendar-desk.mp4",
       "title": "A year in full colour",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-09T14:07:00",
@@ -999,10 +1007,10 @@
     },
     {
       "at": "2027-01-10T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-02_room_wallpapers.mp4",
       "title": "Free 2027 lock screens | Free download",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-11T14:07:00",
@@ -1020,31 +1028,31 @@
     },
     {
       "at": "2027-01-13T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-11_slowpencil_fox-witness.mp4",
       "title": "Breathe out | Colored pencil",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-14T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-04_room_journal-ephemera.mp4",
       "title": "A little theatre for your journal",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-15T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-12_slowpencil_many-eyed-house.mp4",
       "title": "A quiet house, slowly filling with colour | Colored pencil",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-16T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-05_room_kindred.mp4",
       "title": "Bring the wild indoors",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-17T14:07:00",
@@ -1055,24 +1063,24 @@
     },
     {
       "at": "2027-01-18T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-06_room_masquerade.mp4",
       "title": "A gallery wall with a flair for drama",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-19T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-14_slowpencil_rest.mp4",
       "title": "Rest is allowed | Colored pencil",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-20T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-07_room_reverie.mp4",
       "title": "A wall to daydream into",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-21T14:07:00",
@@ -1083,17 +1091,17 @@
     },
     {
       "at": "2027-01-22T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-08_room_bundle.mp4",
       "title": "9 prints for a maximalist wall",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     },
     {
       "at": "2027-01-23T14:07:00",
-      "network": "facebook+youtube",
+      "network": "facebook",
       "reel": "2026-12-soft/b3-16_slowpencil_moving-water.mp4",
       "title": "Let it move slowly | Colored pencil",
-      "note": "batch 3 soft music"
+      "note": "batch 3 soft music; YouTube removed Nov 26 (repeat/weak on YT)"
     }
   ]
 }
